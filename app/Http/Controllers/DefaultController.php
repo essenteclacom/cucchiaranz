@@ -6,6 +6,6 @@ use Illuminate\Http\Request;
 
 class DefaultController extends Controller {
     public function __invoke() {
-        return redirect('inicio');
+        return redirect('home');
     }
 }

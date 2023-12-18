@@ -9,13 +9,11 @@
             <div class="container relative z-30 xxs:pb-48 xs:pb-52 sm:pb-72 md:pb-96 lg:pb-96">
                 <div class="xxs:text-center xs:text-center sm:text-center md:text-left lg:text-left xxs:pt-8 xs:pt-8 sm:pt-20 xl:pt-32">
                     <h1 class="font-body font-bolder text-white xxs:text-2xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl">
-                        Comprehensive financial<br/>solutions
+                        The Company
                     </h1>
                     <div class="xxs:pt-12 xs:pt-12 sm:pt-12 md:pt-12 lg:pt-12 xl:pt-12 pl-0 md:pl-1">
                         <p class="font-body text-white font-normal xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-xl">
-                            We assist you in making the best investment decisions, offering you a<br/>
-                            wide range of financial instruments according to your goals, term, and<br/>
-                            risk profile.
+                            Cucchiara y Cia. LTD (“Cucchiara” or “the Company”) provides financial intermediation services and custody of securities to its clients. The Company bases its operative strategy on prudence and responsibility when making decisions, and prides itself on providing a highly personalized service to clients. In this way, through the years, the quality of our relationship with clients and the trust we enjoy has been strengthened, such as with our institutional clients and counterparties, allowing us to enjoy a prestige that we strive daily to maintain.
                         </p>
                     </div>
                     {{-- <div class="absolute md:top-16 lg:-top-4 xl:-top-16 right-0 z--1">
@@ -25,11 +23,11 @@
                 </div>
                 <div class="xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left">
                     <span class="text-white font-body font-bold xxs:text-2xl sm:text-3xl lg:text-3xl xl:text-4xl">
-                        About Us
+
                     </span>
                     <div class="xxs:pt-8 xs:pt-8 sm:pt-8 md:pt-8 lg:pt-8 xl:pt-8">
                         <p class="font-body text-white font-normal xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-2xl">
-                            <span class="font-bold">Cucchiara y Cía. S. A. is a Negotiation, Settlement, and Clearing Agent that offers</span>comprehensive portfolio management services, fostering direct relationships with its individual or corporate clients and providing financial solutions guided by prudence, transparency, and accountability.
+                            This is the reason why both Cucchiara’s traders and management team maintain direct contact with investors, providing them with the support they need when making decisions. We have a global presence through our full-service brokerage firm, Cucchiara y Cía. S.A. (“Cucchiara Argentina”), a Negotiation, Liquidation and Compensation Agent (ALyC) based in Buenos Aires. <b>Cucchiara Argentina</b> commenced operations in 1969 and was founded by Dr. Tomas Cucchiara. Since 2006, we also have a presence in Uruguay through Sekoia Agente de Valores S.A., a company which provides financial advice as well as intermediation of local and foreign securities. Sekoia is authorized and regulated by the Central Bank of Uruguay (BCU).</span>
                         </p>
                     </div>
                 </div>
@@ -40,13 +38,13 @@
     {{-- cards --}}
     <div class="container absolute inset-x-0 fieldset z-30 xxs:px-0 lg:px-28 xl:px-48 xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left xxs:-mt-32 xs:-mt-36 sm:-mt-48 md:-mt-80 lg:-mt-48 xl:-mt-64">
         <span class="text-white font-body font-bold xxs:text-2xl sm:text-3xl lg:text-3xl xl:text-4xl">
-            What we do
-        </span>    
+            Services
+        </span>
         <div class="grid grid-cols-2 xxs:gap-1 gap-y-10 pt-10 sm:gap-x-6 md:gap-x-14 lg:gap-x-14 xl:gap-x-20 md:pt-12">
             <div class="rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
                 <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
                     <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
-                        Portfolio<br/>Assessment
+                        Brokerage
                     </h3>
                 </div>
                 <div>
@@ -56,37 +54,17 @@
             <div class="rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
                 <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
                     <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
-                        Research
+                        Custody
                     </h3>
                 </div>
                 <div>
                     <img src="{{ asset('/img/card_02.png') }}" alt="content marketing icon" class="xxs:w-20"/>
                 </div>
             </div>
-            <div class="rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
-                <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
-                    <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
-                        Financials<br/>Operations
-                    </h3>
-                </div>
-                <div>
-                    <img src="{{ asset('/img/card_03.png') }}" alt="Mobile Application icon" class="xxs:w-20"/>
-                </div>
-            </div>
-            <div class="rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
-                <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
-                    <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
-                        Mutual<br/>Funds
-                    </h3>
-                </div>
-                <div>
-                    <img src="{{ asset('/img/card_04.png') }}" alt="Email Marketing icon" class="xxs:w-20"/>
-                </div>
-            </div>
         </div>
     </div>
     {{-- end cards --}}
-    <div class="xxs:h-c-32 xs:h-c-34 sm:h-[23rem] md:h-60 lg:h-[25rem] xl:h-[30rem]"></div>
+    <div class="xxs:h-c-32 xs:h-c-34 sm:h-[23rem] md:h-44 lg:h-44 xl:h-44"></div>
     {{-- open account --}}
     <div class="container text-center">
         <span class=" font-bolder text-color-cucchiara text-center font-body xxs:text-3xl lg:text-3xl">
@@ -145,7 +123,7 @@
         <div class="container xxs:flex-col sm:flex-row md:flex-row lg:flex-row flex xl:flex-row  items-center justify-between py-16 md:py-20 lg:flex-row">
             <div>
                 <h2 class="font-body xxs:pb-8 xs:text-base sm:text-2xl md:text-4xl lg:text-5xl font-bold text-white">
-                    What do youneed<br>to openyour<br>account?                  
+                    What do you<br>need to open<br>your account?
                 </h2>
             </div>
             <div class="flex xxs:gap-0 sm:gap-2">
@@ -203,7 +181,7 @@
                                         · Registro de accionistas actualizado.<br/>
                                         · Estados contables.<br/>
                                         · Verificación de domicilio de la sociedad.<br/>
-                                        · De los representantes de la sociedad y beneficiarios finales. 
+                                        · De los representantes de la sociedad y beneficiarios finales.
                                     </p>
                                     <p class="font-body xxs:text-xxs xs:text-xxs pl-4 sm:text-xxs lg:text-xs">
                                         · Documento de identidad<br/>
@@ -217,149 +195,9 @@
                         </div>
                     </div>
                 </div>
-            </div> 
-        </div>
-    </div>
-    {{-- end need --}} 
-    {{-- last research --}}
-    <div class="bg-white">
-        <div class="container py-16 md:py-20">
-            <h3 class="text-left font-header text-xl font-bolder sm:text-xl lg:text-3xl text-color-cucchiara">
-                Last Research reports
-            </h3>
-            <div class="mx-auto grid w-full grid-cols-3 pt-4 w-full xxs:gap-2 xl:gap-10">
-                <a href="/post" class="shadow-amplia bg-white rounded-xl">
-                    <div style="background-image: url({{ asset('/img/post-01.png')}})" class="rounded-top-xl group relative xxs:h-28 sm:h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
-                        <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                    </div>
-                    <div class="bg-white py-6 xxs:px-1 sm:px-5 xl:py-8 rounded-xl">
-                        <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
-                            Compañia general de combustible
-                        </span>
-                        <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
-                            Marzo 10, 2023
-                        </span>
-                    </div>
-                </a>
-                <a href="/post" class="shadow-amplia bg-white rounded-xl">
-                    <div style="background-image: url({{ asset('/img/post-02.png')}})" class="rounded-top-xl group relative xxs:h-28 sm:h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
-                        <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                    </div>
-                    <div class="bg-white py-6 xxs:px-1 sm:px-5 xl:py-8 rounded-xl">
-                        <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
-                            Telecom Argentina S.A.
-                        </span>
-                        <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
-                            Marzo 10, 2023
-                        </span>
-                    </div>
-                </a>
-                <a href="/post" class="shadow-amplia bg-white rounded-xl">
-                    <div style="background-image: url({{ asset('/img/post-03.png')}})" class="rounded-top-xl group relative xxs:h-28 sm:h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
-                        <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                        <!--<span class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">
-                            Leer nota
-                        </span>-->
-                    </div>
-                    <div class="bg-white py-6 xxs:px-1 sm:px-5 xl:py-8 rounded-xl">
-                        <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
-                            La macroeconomía Argentina para 2023
-                        </span>
-                        <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
-                            Marzo 10, 2023
-                        </span>
-                    </div>
-                </a>
             </div>
         </div>
     </div>
-    {{-- newsletter --}}
-    <div class="bg-quarter" id="newsletter">
-        @if (session('status'))
-        <div class="text-center text-white font-body text-base pt-10">
-            {{ session('status') }}
-        </div>
-        @endif
-        @if ($errors->any())
-        <div class="text-center text-white font-body text-base pt-10">
-            <ul>
-                @foreach ($errors->all() as $error)
-                <li>{{ $error }}</li>
-                @endforeach
-            </ul>
-        </div>
-        @endif
-        <div class="container flex justify-between py-12 grid grid-cols-2 gap-2 flex items-center xl:pr-60 xl:pl-52">
-            <div>
-                <h2 class="text-white font-body xxs:text-2xl xs:text-3xl lg:text-5xl font-bolder">
-                    Receive our weekly<br/>Newsletter
-                </h2>
-            </div>
-            <div class="text-right">
-                <button data-modal-target="newsletter-modal" data-modal-toggle="newsletter-modal" class="text-color-cucchiara rounded bg-button text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring xxs:px-4 sm:px-12 py-2 text-center">
-                    Subscribe
-                </button>
-            </div>
-        </div>
-    </div>
-    <div id="newsletter-modal" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
-        <div class="relative w-full max-w-2xl max-h-full">
-            <!-- Modal content -->
-            <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
-                <button type="button" class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded text-sm w-8 h-8 ml-auto inline-flex justify-center items-center" data-modal-hide="newsletter-modal">
-                    <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
-                    </svg>
-                    <span class="sr-only">Close modal</span>
-                </button>
-                <div class="px-6 py-20 bg-quarter flex flex-col items-center rounded-lg">
-                    <h3 class="mb-4 text-2xl font-bold text-white">Receive our weekly Newsletter</h3>
-                    <form class="space-y-6" action="/newsletter" method="POST" role="form">
-                        {{ csrf_field() }}
-                        <div class="flex flex-row justify-between gap-3">
-                            <div class="">
-                                <label for="name" class="block mb-2 text-sm font-medium text-gray-900 text-white"></label>
-                                <input type="name" name="name" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Nombres *" required>
-                            </div>
-                            <div class="">
-                                <label for="lastname" class="block mb-2 text-sm font-medium text-gray-900 text-white"></label>
-                                <input type="lastname" name="lastname" id="lastname" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Apellidos *" required>
-                            </div>
-                        </div>
-                        <div class="w-full">
-                            <input type="email" name="email" id="email" class="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Email*" required>
-                        </div>
-                        <div class="flex justify-between">
-                            <div class="flex flex-col">
-                                <div>
-                                    <h3 class="text-base text-white mb-4">
-                                        Choose which you want:
-                                    </h3>
-                                </div>
-                                <div class="flex flex-row">
-                                    <div class="flex items-center h-5">
-                                        <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300" required>
-                                    </div>
-                                    <label for="remember" class="ml-2 text-sm font-medium text-white">Estadistic Summary</label><br>
-                                </div>
-                                <div class="flex flex-row">
-                                    <div class="flex items-center h-5">
-                                        <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300" required>
-                                    </div>
-                                    <label for="remember" class="ml-2 text-sm font-medium text-white">Economic Summary</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="flex justify-end">
-                            <button class="text-color-cucchiara rounded bg-cyan-20 px-12 py-2 font-body text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring">
-                                Send
-                            </button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    {{-- end newsletter --}}
+    {{-- end need --}}
     <div class="h-[10rem]"></div>
 @endsection

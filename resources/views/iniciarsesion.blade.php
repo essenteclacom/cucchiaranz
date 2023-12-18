@@ -7,7 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans:ital,wght@0,100,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link crossorigin="anonymous" href="{{ asset('/css/custom.css') }}" media="screen" rel="stylesheet"/>
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>CUCCHIARA - Iniciar Sesion</title>
+    <link rel="icon" type="image/png" href="{{ asset('/img/favicon.png') }}"/>
+    <title>CUCCHIARA NZ - Iniciar Sesion</title>
 </head>
 <body>
     <div class="grid place-items-center h-screen bg-cover bg-center bg-no-repeat" style="background-image: url('{{ asset('/img/background_home_old.png')}}')">

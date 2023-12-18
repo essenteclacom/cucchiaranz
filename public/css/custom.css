@@ -371,7 +371,7 @@ select{
     --tw-backdrop-invert: ;
     --tw-backdrop-opacity: ;
     --tw-backdrop-saturate: ;
-    --tw-backdrop-sepia: 
+    --tw-backdrop-sepia:
 }
 .container{
     margin-left:auto;
@@ -1094,14 +1094,11 @@ html{
     content: "";
     width: 60%;
     height: 3px;
-    background: rgb(17, 32, 140);
+    background: #871010;
     position: absolute;
     top: 0;
     left: 0;
-  }
-
-
-
+}
 
 .bg-primary{
     --tw-bg-opacity:1;
@@ -1156,7 +1153,7 @@ html{
     background-color:#FFFFFF
 }
 .bg-cyan-20{
-    background-color:#871010 
+    background-color:#871010
 }
 .bg-button {
     background-color: #8ddef7
@@ -1693,13 +1690,13 @@ ul, ol {
 .w3rcontainer{
     border: 1px solid rgb(17, 32, 140);
     border-radius: 2px;
- } 
+ }
  .hover-underline-animation {
    display: inline-block;
    position: relative;
    color:#9B0404;
  }
- 
+
  .hover-underline-animation:after {
    content: '';
    position: absolute;
@@ -1712,7 +1709,7 @@ ul, ol {
    transform-origin: bottom right;
    transition: transform 0.25s ease-out;
  }
- 
+
  .hover-underline-animation:hover:after {
    transform: scaleX(1);
    transform-origin: bottom left;
@@ -1723,7 +1720,7 @@ ul, ol {
 }
 /*CSS to animated flip 3d cards*/
 .wrapper-card, .single-card {
-	position: relative; 
+	position: relative;
 }
 .wrapper-card {
 	perspective: 900px;
@@ -1738,7 +1735,7 @@ ul, ol {
 .front-card, .back-card {
 	position: relative;
 	top: 0;
-	left: 0; 
+	left: 0;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
@@ -1844,16 +1841,16 @@ ul, ol {
     }
     .xxs\:h-16{
         height:4rem
-    }  
+    }
     .xxs\:h-20{
         height:5rem
-    } 
+    }
     .xxs\:h-24{
         height:6rem
     }
     .xxs\:h-28{
         height:7rem
-    }  
+    }
     .xxs\:h-32{
         height:8rem
     }
@@ -1941,7 +1938,7 @@ ul, ol {
     }
     .xs\:justify-end {
         justify-content: flex-end;
-    }	
+    }
     .xxs\:text-center{
         text-align:center
     }
@@ -2215,7 +2212,7 @@ ul, ol {
     }
     .xs\:h-c-4{
         height:4.25rem
-    }  
+    }
     .xs\:h-20{
         height:5rem
     }
@@ -2294,7 +2291,7 @@ ul, ol {
     }
     .xs\:justify-end {
         justify-content: flex-end;
-    }	
+    }
     .xs\:text-center{
         text-align:center
     }
@@ -2765,7 +2762,7 @@ ul, ol {
     }
 }
 /*lg*/
-@media screen and (min-width:1024px) { 
+@media screen and (min-width:1024px) {
     .container{
         max-width:1024px;
         padding-left:3rem;
@@ -2864,7 +2861,7 @@ ul, ol {
     }
     .lg\:grid-flow-col{
         grid-auto-flow: column;
-    }	
+    }
     .lg\:grid-cols-3{
         grid-template-columns:repeat(3,minmax(0,1fr))
     }
@@ -2888,7 +2885,7 @@ ul, ol {
     .lg\:border-t-2{
         border-top-width:2px
     }
-    .lg\:px-9{	
+    .lg\:px-9{
         padding-left: 2.25rem; /* 36px */
         padding-right: 2.25rem; /* 36px */
     }
