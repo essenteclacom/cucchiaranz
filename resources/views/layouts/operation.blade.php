@@ -80,21 +80,6 @@
                                         <span @if(request()->is('services')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Services</span>
                                     </a>
                                 </li>
-                                <li class="group pl-20">
-                                    <a href="/home">
-                                        <span @if(request()->is('home')) class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Mutual Funds</span>
-                                    </a>
-                                </li>
-                                <li class="group pl-20">
-                                    <a href="/research">
-                                        <span @if(request()->is('research')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Research</span>
-                                    </a>
-                                </li>
-                                <li class="group pl-20">
-                                    <a href="/home">
-                                        <span @if(request()->is('home')) class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Trade online</span>
-                                    </a>
-                                </li>
                             </ul>
                         </div>
                         <div class="hidden">
@@ -115,15 +100,6 @@
                             </li>
                             <li class="py-4">
                                 <a href="/services"><span class="cursor-pointer font-body font-semibold text-white">Services</span></a>
-                            </li>
-                            <li class="py-4">
-                                <a href="/home"><span class="cursor-pointer font-body font-semibold text-white">Mutual Funds</span></a>
-                            </li>
-                            <li class="py-4">
-                                <a href="/research"><span class="cursor-pointer font-body font-semibold text-white">Research</span></a>
-                            </li>
-                            <li class="py-4">
-                                <a href="/home"><span class="cursor-pointer font-body font-semibold text-white">Trade online</span></a>
                             </li>
                         </ul>
                     </div>

@@ -12,7 +12,7 @@
                         The Company
                     </h1>
                     <div class="xxs:pt-12 xs:pt-12 sm:pt-12 md:pt-12 lg:pt-12 xl:pt-12 pl-0 md:pl-1">
-                        <p class="font-body text-white font-normal xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-xl">
+                        <p class="font-body text-white font-normal xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-xl xl:pr-[28rem]">
                             Cucchiara y Cia. LTD (“Cucchiara” or “the Company”) provides financial intermediation services and custody of securities to its clients. The Company bases its operative strategy on prudence and responsibility when making decisions, and prides itself on providing a highly personalized service to clients. In this way, through the years, the quality of our relationship with clients and the trust we enjoy has been strengthened, such as with our institutional clients and counterparties, allowing us to enjoy a prestige that we strive daily to maintain.
                         </p>
                     </div>
