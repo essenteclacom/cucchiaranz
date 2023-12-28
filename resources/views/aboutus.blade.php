@@ -31,10 +31,10 @@
             </div>
             <div class="grid grid-cols-3 sm:mx-0 md:mx-10 lg:mx-40 xl:mx-40">
                 <div class="flex items-center justify-center group z-50">
-                    <div style="background-image: url({{ asset('/img/ObeliscoBA2015.jpg')}})" class="rounded-full group relative xxs:w-24 xs:w-52 sm:w-52 md:w-52 lg:w-52 xl:w-52 xxs:h-24 xs:h-44 sm:h-52 md:h-52 lg:h-52 xl:h-52 bg-cover bg-center bg-no-repeat">
+                    <div style="background-image: url({{ asset('/img/nuevazelanda.jpg')}})" class="rounded-full group relative xxs:w-24 xs:w-52 sm:w-52 md:w-52 lg:w-52 xl:w-52 xxs:h-24 xs:h-44 sm:h-52 md:h-52 lg:h-52 bg-cover bg-center bg-no-repeat">
                         <span class="rounded-full absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
                         <span class="hidden group-hover:block z-1 rounded-full text-center xxs:text-xs xs:text-base sm:text-base text-white mx-auto inset-0 xxs:pt-10 xs:pt-20 sm:pt-24 md:pt-24 lg:pt-24 xl:pt-24">
-                            Buenos Aires
+                            Auckland
                         </span>
                     </div>
                 </div>
@@ -47,10 +47,10 @@
                     </div>
                 </div>
                 <div class="flex items-center justify-center group z-50">
-                    <div style="background-image: url({{ asset('/img/nuevazelanda.jpg')}})" class="rounded-full group relative xxs:w-24 xs:w-52 sm:w-52 md:w-52 lg:w-52 xl:w-52 xxs:h-24 xs:h-44 sm:h-52 md:h-52 lg:h-52 bg-cover bg-center bg-no-repeat">
+                    <div style="background-image: url({{ asset('/img/ObeliscoBA2015.jpg')}})" class="rounded-full group relative xxs:w-24 xs:w-52 sm:w-52 md:w-52 lg:w-52 xl:w-52 xxs:h-24 xs:h-44 sm:h-52 md:h-52 lg:h-52 xl:h-52 bg-cover bg-center bg-no-repeat">
                         <span class="rounded-full absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
                         <span class="hidden group-hover:block z-1 rounded-full text-center xxs:text-xs xs:text-base sm:text-base text-white mx-auto inset-0 xxs:pt-10 xs:pt-20 sm:pt-24 md:pt-24 lg:pt-24 xl:pt-24">
-                            Auckland
+                            Buenos Aires
                         </span>
                     </div>
                 </div>
@@ -58,17 +58,17 @@
             <div class="grid grid-cols-3 pt-10 sm:mx-10 md:mx-10 lg:mx-40 xl:mx-40">
                 <div class="flex items-center justify-center">
                     <div>
-                        <img src="{{ asset('/img/about_logo_01.png') }}"class="w-auto h-auto" alt="icon happy clients"/>
+                        <img src="{{ asset('/img/about_logo_01.png') }}"class="w-40 h-auto" alt="icon happy clients"/>
                     </div>
                 </div>
                 <div class="flex items-center justify-center">
                     <div>
-                        <img src="{{ asset('/img/about_logo_02.png') }}"class="w-auto h-auto" alt="icon puzzle"/>
+                        <img src="{{ asset('/img/about_logo_02.png') }}"class="w-40 h-auto" alt="icon puzzle"/>
                     </div>
                 </div>
                 <div class="flex items-center justify-center">
                     <div>
-                        <img src="{{ asset('/img/about_logo_03.png') }}"class="w-auto h-auto" alt="icon puzzle"/>
+                        <img src="{{ asset('/img/about_logo_03.png') }}"class="w-40 h-auto" alt="icon puzzle"/>
                     </div>
                 </div>
             </div>

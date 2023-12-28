@@ -82,6 +82,10 @@ button,select{
     border-top: solid 2px;
     border-color: rgb(242 242 242/var(--tw-bg-opacity));
 }
+.border-menu-line-footer{
+    border-top: solid 2px;
+    border-color: #E5E5E5;
+}
 [type=button],[type=reset],[type=submit],button{
     -webkit-appearance:button;
     background-color:#8ddef7;
@@ -1210,7 +1214,7 @@ html{
     padding:.5rem
 }
 .p-custom-esp-buttom{
-    padding: 5px 12px 5px 12px
+    padding: 0px 12px 0px 12px
 }
 .py-6{
     padding-bottom:1.5rem;
