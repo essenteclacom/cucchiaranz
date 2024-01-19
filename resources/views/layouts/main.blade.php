@@ -170,7 +170,7 @@
                 {{-- end map --}}
                 {{-- footer --}}
                 <div class="bg-footer">
-                    <div class="container py-10">
+                    <div class="container py-10 sm:pl-32 sm:pr-32 xxs:pl-8 xxs:pr-8">
                         <div class="flex flex-row">
                             <div class="flex justify-between xxs:items-start xs:items-center sm:items-center md:items-center lg:items-start xxs:flex-col xs:flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row xxs:w-3/5 xs:w-3/5 sm:w-3/5 md:w-3/5 lg:w-3/4 lg:pr-12 xl:pr-12">
                                 <div class="pt-1 xxs:pb-8 xs:pb-8">
