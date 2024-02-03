@@ -1193,7 +1193,7 @@ html{
     --tw-gradient-to:rgba(28,64,195,.9)
 }
 .to-blog-gradient-to{
-    --tw-gradient-to:rgb(17, 32, 140)
+    --tw-gradient-to: #9B0404;
 }
 .bg-cover{
     background-size:cover
@@ -1550,7 +1550,7 @@ html{
 }
 .hover\:bg-primary:hover{
     --tw-bg-opacity:1;
-    background-color:rgb(28 64 195/var(--tw-bg-opacity))
+    background-color:#9B0404
 }
 .hover\:text-yellow:hover{
     --tw-text-opacity:1;
@@ -1758,6 +1758,9 @@ ul, ol {
         max-width:560px;
         padding-left:2rem;
         padding-right:2rem;
+    }
+    .xxs\:gap-8{
+        gap:2rem
     }
     .xxs\:left-4{
         left:1rem
@@ -3049,3 +3052,59 @@ ul, ol {
         width:100%
     }*/
 }
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+  .pic-ctn {
+    /* width: 100vw; */
+    height: 200px;
+  }
+  
+  @keyframes display {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    10% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+  }  
+  .pic-ctn {
+    position: relative;
+    /* width: 100vw; */
+    height: 300px;
+    /* margin-top: 15vh; */
+  }
+  
+  .pic-ctn > img {
+    position: absolute;
+    top: 0;
+    left: calc(60% - 100px);
+    opacity: 0;
+    animation: display 16s infinite;
+  }
+  
+  img:nth-child(2) {
+    animation-delay: 4s;
+  }
+  img:nth-child(3) {
+    animation-delay: 8s;
+  }
+  img:nth-child(4) {
+    animation-delay: 12s;
+  }

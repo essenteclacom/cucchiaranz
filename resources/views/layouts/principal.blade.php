@@ -41,10 +41,10 @@
                             </a>
                         </div>
                         <div class="flex justify-right flex-end flex-row items-center">
-                            <a href="/seleccionartipocuenta" class="font-body text-color-cucchiara flex items-center justify-center rounded bg-white button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-cyan-20">
+                            <a href="/seleccionartipocuenta" class="font-body text-color-cucchiara flex items-center justify-center rounded-md bg-white button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-cyan-20">
                                 Abrir cuenta
                             </a>
-                            <a href="/iniciarsesion" class="text-white font-body ml-1 flex items-center justify-center rounded bg-cyan-20 button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-white hover:text-color-cucchiara">
+                            <a href="/iniciarsesion" class="text-white font-body ml-1 flex items-center justify-center rounded-md bg-cyan-20 button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-white hover:text-color-cucchiara">
                                 Ingresar
                             </a>
                             <div class="hidden lg:block">
@@ -260,7 +260,7 @@
                         </div>
                         <div class="text-center py-6">
                             <div> ALyC Integral registro Nro. 265 CNV |Miembro de BYMA Nro. 18 | Miembro de ROFEX Nro. 472 | Miembro de MAE Nro. 672</div>
-                            <div>© 2023 Cuchiarra Todos los derechos reservados. Diseño y desarollo porFolklore</div>
+                            <div>© 2023 Cuchiarra Todos los derechos reservados. Diseño y desarollo por Folklore</div>
                         </div>
                     </div>
                 </div>

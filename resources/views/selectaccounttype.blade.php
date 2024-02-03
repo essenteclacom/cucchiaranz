@@ -19,7 +19,7 @@
                         </h3>
                     </div>
                     <div>
-                    <img src="{{ asset('/img/personas.png') }}" alt="development icon" class="w-40"/>
+                    <img src="{{ asset('/img/wrappedcard01.png') }}" alt="development icon" class="w-40"/>
                     </div>
                 </div>
             </a>
@@ -32,7 +32,7 @@
                             </h3>
                         </div>
                         <div>
-                            <img src="{{ asset('/img/contratos.png') }}" alt="content marketing icon" class="w-40"/>
+                            <img src="{{ asset('/img/wrappedcard02.png') }}" alt="content marketing icon" class="w-40"/>
                         </div>
                     </div>
                 </div>

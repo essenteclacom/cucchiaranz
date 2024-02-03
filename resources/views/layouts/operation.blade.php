@@ -10,7 +10,7 @@
         <link rel="canonical" href="//"/>
         <meta property="og:url" content="//"/>
         <meta name="description" content="Agente de Negociación Liquidación y Compensación."/>
-        <link rel="icon" type="image/png" href="{{ asset('/img/favicon-96x96.png') }}"/>
+        <link rel="icon" type="image/png" href="{{ asset('/img/favicon.png') }}"/>
         <meta name="theme-color" content="#5540af"/>
         <meta property="og:site_name" content="Cucchiara"/>
         <meta property="og:image" content="{{ asset('/img/Fondocompletolinea.jpg') }}"/>
@@ -44,13 +44,13 @@
                             <div class="hidden lg:block">
                                 <ul class="nav-lang flex items-center">
                                     <li class="text-color-cucchiara group pl-6">
-                                        <a class="flex items-center justify-center rounded bg-white p-custom-esp-buttom text-base font-bold uppercase hover:bg-cyan-20">
+                                        <a class="flex items-center justify-center rounded-md bg-white p-custom-esp-buttom text-base font-bold uppercase hover:bg-cyan-20">
                                             ENG
                                             <i class="bx bx-chevron-down relative -right-2 text-3xl"></i>
                                         </a>
                                         <ul>
                                             <li class="text-color-cucchiara text-base font-bold uppercase w-20">
-                                                <a class="hover:bg-cyan-20 flex items-center justify-center rounded pr-41-custom py-1 pl-4" href="/esp">
+                                                <a class="hover:bg-cyan-20 flex items-center justify-center rounded-md pr-41-custom py-1 pl-4" href="/esp">
                                                     ESP
                                                 </a>
                                             </li>

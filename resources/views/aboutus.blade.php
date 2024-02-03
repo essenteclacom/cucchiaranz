@@ -63,7 +63,7 @@
                 </div>
                 <div class="flex items-center justify-center">
                     <div>
-                        <img src="{{ asset('/img/about_logo_02.png') }}"class="w-40 h-auto" alt="icon puzzle"/>
+                        <img src="{{ asset('/img/about_logo_02.png') }}"class="w-28 h-auto" alt="icon puzzle"/>
                     </div>
                 </div>
                 <div class="flex items-center justify-center">
