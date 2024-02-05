@@ -170,7 +170,7 @@
                 {{-- end map --}}
                 {{-- footer --}}
                 <div class="bg-footer">
-                    <div class="container py-10 sm:pl-32 sm:pr-32 xxs:pl-8 xxs:pr-8">
+                    <div class="container py-10">
                         <div class="flex flex-row">
                             <div class="flex justify-between xxs:items-start xs:items-center sm:items-center md:items-center lg:items-start xxs:flex-col xs:flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row xxs:w-3/5 xs:w-3/5 sm:w-3/5 md:w-3/5 lg:w-3/4 lg:pr-12 xl:pr-12">
                                 <div class="pt-1 xxs:pb-8 xs:pb-8">
@@ -178,11 +178,11 @@
                                 </div>
                                 <div class="mt-2 border-t-footer xxs:pb-8 xs:pb-8">
                                     <a href="/regulations">
-                                        <div class="pt-1 font-bold">Regulations<br/>Fees</div>
+                                        <div class="pt-1 font-bold">Regulations<br/>Fees and comissions</div>
                                     </a>
                                 </div>
                                 <div class="pt-1 mt-2 border-t-footer xxs:pb-8 xs:pb-8 xs:ml-4 sm:ml-8 md:ml-8 lg:ml-0">
-                                    info@cucchiara.co.nz<br/>11-19 Customs Street West<br/>Phone: +64 09 446 0363
+                                    info@cucchiara.co.nz<br/>11-19 Customs Street West<br>Level 16-18 Commercial<br>Bay Auckland, 1010, New<br>Zealand<br/>Phone: +64 09 446 0363
                                 </div>
                             </div>
                             <div class="flex xxs:items-end xs:items-center sm:items-center md:items-center lg:items-start xxs:justify-end xs:justify-end sm:justify-end md:justify-end lg:justify-between xxs:flex-col-reverse xs:flex-col-reverse xs:flex-col-reverse sm:flex-col-reverse md:flex-col-reverse lg:flex-row xl:flex-row xxs:w-2/5 xs:w-2/5 sm:w-2/5 md:w-2/5 lg:w-1/4 lg:pl-4 xl:pl-12">
@@ -197,8 +197,8 @@
                         </div>
                         <div class="py-6 border-menu-line-footer"></div>
                         <div class="text-center py-6">
-                            <div>© 2023 Cucchiara Todos los derechos reservados. Diseño y desarollo por Folklore</div>
-                            <div></div>
+                            <div>Financial Services Provider No. 481546 New Zealand Business No. 9429030127722</div>
+                            <div>© 2023 Cucchiara y Cía. All rights reserved. Design and development by Folklore</div>
                         </div>
                     </div>
                 </div>

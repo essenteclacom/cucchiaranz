@@ -7,13 +7,13 @@
     <div>
         <div class="sm:bg-no-repeat md:bg-no-repeat lg:relative lg:bg-cover lg:bg-center lg:bg-no-repeat xl:w-full xl:max-w-full xl:overflow-hidden xl:h-auto xl:grid xl:bg-cover xl:bg-no-repeat xl:bg-top justify-center items-center" style="background-image: url('{{ asset('/img/background_home.png')}}')">
             <div class="container relative z-30 xxs:pb-48 xs:pb-52 sm:pb-72 md:pb-96 lg:pb-96">
-                <div class="xxs:text-center xs:text-center sm:text-center md:text-left lg:text-left xxs:pt-8 xs:pt-8 sm:pt-20 xl:pt-32">
+                <div class="xxs:text-center xs:text-center sm:text-center md:text-left lg:text-left xxs:pt-8 xs:pt-8 sm:pt-20 xl:pt-32 sm:pr-0 md:pr-60 xl:pr-64">
                     <h1 class="font-body font-bolder text-white xxs:text-2xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl">
-                        The Company
+                        Trade worldwide across financial markets
                     </h1>
-                    <div class="xxs:pt-12 xs:pt-12 sm:pt-12 md:pt-12 lg:pt-12 xl:pt-12 pl-0 md:pl-1">
-                        <p class="font-body text-white font-normal xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-xl xl:pr-[28rem]">
-                            Cucchiara y Cia. LTD (“Cucchiara” or “the Company”) provides financial intermediation services and custody of securities to its clients. The Company bases its operative strategy on prudence and responsibility when making decisions, and prides itself on providing a highly personalized service to clients. In this way, through the years, the quality of our relationship with clients and the trust we enjoy has been strengthened, such as with our institutional clients and counterparties, allowing us to enjoy a prestige that we strive daily to maintain.
+                    <div class="xxs:pt-12 xs:pt-12 sm:pt-12 md:pt-12 lg:pt-12 xl:pt-12 pl-0 md:pl-1 sm:pr-0 md:pr-60 xl:pr-64">
+                        <p class="font-body text-white font-normal xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-xl">
+                            From stocks to mutual funds, we stand out for transparency and personalized guidance. We make accessing international markets easy. Our clients enjoy direct access to major global stock exchanges, empowering them to explore and capitalize on a variety of investment opportunities. Invest with confidence and constant support.
                         </p>
                     </div>
                     {{-- <div class="absolute md:top-16 lg:-top-4 xl:-top-16 right-0 z--1">
@@ -23,11 +23,11 @@
                 </div>
                 <div class="xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left">
                     <span class="text-white font-body font-bold xxs:text-2xl sm:text-3xl lg:text-3xl xl:text-4xl">
-
+                        About Us
                     </span>
                     <div class="xxs:pt-8 xs:pt-8 sm:pt-8 md:pt-8 lg:pt-8 xl:pt-8">
                         <p class="font-body text-white font-normal xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-2xl">
-                            This is the reason why both Cucchiara’s traders and management team maintain direct contact with investors, providing them with the support they need when making decisions. We have a global presence through our full-service brokerage firm, Cucchiara y Cía. S.A. (“Cucchiara Argentina”), a Negotiation, Liquidation and Compensation Agent (ALyC) based in Buenos Aires. <b>Cucchiara Argentina</b> commenced operations in 1969 and was founded by Dr. Tomas Cucchiara. Since 2006, we also have a presence in Uruguay through Sekoia Agente de Valores S.A., a company which provides financial advice as well as intermediation of local and foreign securities. Sekoia is authorized and regulated by the Central Bank of Uruguay (BCU).</span>
+                            Cucchiara y Cía. LTD is a Financial Services Provider (FSP) headquartered in New Zealand. The company specializes in providing comprehensive trading, custody, and settlement services for a diverse range of financial assets.
                         </p>
                     </div>
                 </div>
@@ -64,7 +64,7 @@
         </div>
     </div>
     {{-- end cards --}}
-    <div class="xxs:h-c-32 xs:h-c-34 sm:h-[23rem] md:h-44 lg:h-44 xl:h-44"></div>
+    <div class="xxs:h-c-32 xs:h-c-34 sm:h-[23rem] md:h-44 lg:h-64 xl:h-44"></div>
     {{-- open account --}}
     <div class="container text-center">
         <span class=" font-bolder text-color-cucchiara text-center font-body xxs:text-3xl lg:text-3xl">
@@ -137,7 +137,7 @@
                     <div class="single-card">
                         <div class="front-card">
                             <div class="gradient-cucciara rounded-1 shadow xxs:h-48 xs:h-44 xxs:w-56 xs:w-48 sm:h-48 sm:w-48 md:mr-8 md:w-48 lg:h-64 lg:w-72">
-                                <div class="relative flex justify-center top-minus-10 sm:h-28 xxs:h-16 xs:h-16">
+                                <div class="relative flex justify-center -top-8 sm:h-28 xxs:h-16 xs:h-16">
                                     <img src="{{ asset('/img/wrappedcard01.png') }}" alt="development icon"/>
                                 </div>
                                 <div class="text-center">
@@ -168,7 +168,7 @@
                     <div class="single-card">
                         <div class="front-card">
                             <div class="gradient-cucciara rounded-1 shadow xxs:h-48 xs:h-44 xxs:w-56 xs:w-48 sm:h-48 sm:w-48 md:w-48 lg:h-64 lg:w-72">
-                                <div class="relative flex justify-center top-minus-10 sm:h-28 xxs:h-16 xs:h-16">
+                                <div class="relative flex justify-center -top-8 sm:h-28 xxs:h-16 xs:h-16">
                                     <img src="{{ asset('/img/wrappedcard02.png') }}" alt="development icon"/>
                                 </div>
                                 <div class="text-center">

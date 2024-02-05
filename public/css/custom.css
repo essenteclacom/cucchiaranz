@@ -750,9 +750,6 @@ html{
 .top-minus-5 {
     top: -1.25rem;
 }
-.top-minus-10 {
-    top: -1.5rem;
-}
 .top-minus-11 {
     top: -1.75rem;
 }
@@ -3061,7 +3058,7 @@ ul, ol {
     /* width: 100vw; */
     height: 200px;
   }
-  
+
   @keyframes display {
     0% {
       transform: translateX(200px);
@@ -3083,14 +3080,14 @@ ul, ol {
       transform: translateX(-200px);
       opacity: 0;
     }
-  }  
+  }
   .pic-ctn {
     position: relative;
     /* width: 100vw; */
     height: 300px;
     /* margin-top: 15vh; */
   }
-  
+
   .pic-ctn > img {
     position: absolute;
     top: 0;
@@ -3098,7 +3095,7 @@ ul, ol {
     opacity: 0;
     animation: display 16s infinite;
   }
-  
+
   img:nth-child(2) {
     animation-delay: 4s;
   }

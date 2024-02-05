@@ -5,14 +5,14 @@
         <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
         <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
         <title>CUCCHIARA NZ - @yield('title')</title>
-        <meta property="og:title" content="Homepage | Cucchiara NZ"/>
+        <meta property="og:title" content="Homepage | Cucchiara"/>
         <meta property="og:locale" content="en_US"/>
         <link rel="canonical" href="//"/>
         <meta property="og:url" content="//"/>
         <meta name="description" content="Agente de Negociación Liquidación y Compensación."/>
         <link rel="icon" type="image/png" href="{{ asset('/img/favicon.png') }}"/>
         <meta name="theme-color" content="#5540af"/>
-        <meta property="og:site_name" content="Cucchiara NZ"/>
+        <meta property="og:site_name" content="Cucchiara"/>
         <meta property="og:image" content="{{ asset('/img/Fondocompletolinea.jpg') }}"/>
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:site" content="@tailwindmade"/>
@@ -36,7 +36,7 @@
                 <div class="w-full z-50 top-0 py-3 sm:py-5 relative bg-white justify-center">
                     <div class="container flex items-center justify-between">
                         <div>
-                            <a href="/inicio">
+                            <a href="/home">
                                 <img src="{{ asset('/img/Logo_Color-01.png') }}" class=" xxs:w-28 xs:w-48 sm:w-60 md:w-60 lg:w-64 xl:w-60" alt="logo image"/>
                             </a>
                         </div>
@@ -44,19 +44,19 @@
                             <a href="/seleccionartipocuenta" class="font-body text-color-cucchiara flex items-center justify-center rounded-md bg-white button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-cyan-20">
                                 Abrir cuenta
                             </a>
-                            <a href="/iniciarsesion" class="text-white font-body ml-1 flex items-center justify-center rounded-md bg-cyan-20 button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-white hover:text-color-cucchiara">
+                            <a href="/iniciarsesion" class="font-body ml-1 text-white flex items-center justify-center rounded-md bg-cyan-20 button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-white hover:text-color-cucchiara">
                                 Ingresar
                             </a>
                             <div class="hidden lg:block">
                                 <ul class="nav-lang flex items-center">
                                     <li class="text-color-cucchiara group pl-6">
-                                        <a class="flex items-center justify-center rounded bg-white p-custom-esp-buttom text-base font-bold uppercase hover:bg-cyan-20">
+                                        <a class="flex items-center justify-center rounded-md bg-white p-custom-esp-buttom text-base font-bold uppercase hover:bg-cyan-20">
                                             ESP
                                             <i class="bx bx-chevron-down relative -right-2 text-3xl"></i>
                                         </a>
                                         <ul>
                                             <li class="text-color-cucchiara text-base font-bold uppercase w-20">
-                                                <a class="hover:bg-cyan-20 flex items-center justify-center rounded pr-41-custom py-2 pl-4" href="/eng">
+                                                <a class="hover:bg-cyan-20 flex items-center justify-center rounded-md pr-41-custom py-1 pl-4" href="/eng">
                                                     ENG
                                                 </a>
                                             </li>
@@ -71,7 +71,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="container flex items-center justify-between border-menu-line-top mt-6 hidden lg:flex">
+                    <div class="container flex items-center justify-between border-menu-line-top mt-8 hidden lg:flex">
                         <div>
                         </div>
                         <div class="hidden lg:block">
@@ -84,22 +84,6 @@
                                 <li class="group pl-28">
                                     <a href="/servicios">
                                         <span @if(request()->is('servicios')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Servicios</span>
-                                    </a>
-                                </li>
-                                <li class="group pl-28">
-                                    <a href="/inicio">
-                                        <span @if(request()->is('inicio')) class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Fondos</span>
-                                    </a>
-                                </li>
-                                <li class="group pl-28">
-                                    <a href="/investigacion">
-                                        <span @if(request()->is('investigacion')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Research</span>
-                                    </a>
-                                </li>
-                                <li class="group pl-28">
-                                    <a href="/inicio">
-                                        <span @if(request()->is('inicio')) class=" hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Opere online</span>
-                                        <!--<span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>-->
                                     </a>
                                 </li>
                             </ul>
@@ -123,15 +107,6 @@
                             <li class="py-4">
                                 <a href="/servicios"><span class="cursor-pointer font-body font-semibold text-white">Servicios</span></a>
                             </li>
-                            <li class="py-4">
-                                <a href="/inicio"><span class="cursor-pointer font-body font-semibold text-white">Fondos</span></a>
-                            </li>
-                            <li class="py-4">
-                                <a href="/investigacion"><span class="cursor-pointer font-body font-semibold text-white">Research</span></a>
-                            </li>
-                            <li class="py-4">
-                                <a href="/inicio"><span class="cursor-pointer font-body font-semibold text-white">Opere online</span></a>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -152,7 +127,7 @@
                             </ul>
                         </div>
                     @endif
-                    <div class="container bg-contact" id="contact">
+                    <div class="container bg-contact sm:pl-32 sm:pr-32 xxs:pl-8 xxs:pr-8" id="contact">
                         <div class="relative xs:top-minus-1-2 top-minus-11">
                             <h2 class="text-color-cucchiara text-left font-bolder font-body xxs:text-3xl xs:text-3xl lg:text-5xl text-primary">
                                 Contacto
@@ -164,10 +139,10 @@
                                 <div class="flex flex-col md:flex-col xxs:w-full mr-4">
                                     <input class="w-full rounded border-white py-5 font-body text-grey-custom" placeholder="Nombre y Apellido*" type="text" name="name" id="name"/>
                                     <input class="w-full rounded border-white py-5 font-body text-grey-custom mt-8" placeholder="Email*" type="text" name="email" id="email"/>
-                                    <input class="w-full rounded border-white py-5 font-body text-grey-custom mt-8" placeholder="Teléfono*" type="text" name="phone" id="phone"/>
+                                    <input class="w-full rounded border-white py-5 font-body text-grey-custom mt-8" placeholder="Teléfono**" type="text" name="phone" id="phone"/>
                                 </div>
                                 <div class="xs:ml-0 sm:ml-4 xxs:mt-8 xs:mt-8 sm:mt-0 sm:w-full md:w-full">
-                                    <textarea class="w-full rounded border-white px-4 py-3 font-body text-grey-custom" placeholder="Mensaje" type="text" name="message" id="message" cols="160" rows="10"></textarea>
+                                    <textarea class="w-full rounded border-white px-4 py-3 font-body text-grey-custom" placeholder="Mensaje*" type="text" name="message" id="message" cols="160" rows="10"></textarea>
                                 </div>
                             </div>
                             <div class="flex items-end justify-end pb-20">
@@ -186,7 +161,7 @@
                 {{-- end map --}}
                 {{-- footer --}}
                 <div class="bg-footer">
-                    <div class="container py-10 sm:pl-32 sm:pr-32 xxs:pl-8 xxs:pr-8">
+                    <div class="container py-10">
                         <div class="flex flex-row">
                             <div class="flex justify-between xxs:items-start xs:items-center sm:items-center md:items-center lg:items-start xxs:flex-col xs:flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row xxs:w-3/5 xs:w-3/5 sm:w-3/5 md:w-3/5 lg:w-3/4 lg:pr-12 xl:pr-12">
                                 <div class="pt-1 xxs:pb-8 xs:pb-8">
@@ -194,11 +169,11 @@
                                 </div>
                                 <div class="mt-2 border-t-footer xxs:pb-8 xs:pb-8">
                                     <a href="/normativas">
-                                        <div class="pt-1 font-bold">Normativas<br/>Aranceles y comisiones<br/>Cuentas habilitadas</div>
+                                        <div class="pt-1 font-bold">Normativas<br/>Aranceles y comisiones</div>
                                     </a>
                                 </div>
                                 <div class="pt-1 mt-2 border-t-footer xxs:pb-8 xs:pb-8 xs:ml-4 sm:ml-8 md:ml-8 lg:ml-0">
-                                    info@cucchiara.com.ar<br/>Sarmiento 470, C1041 CABA<br/>Tel: +54 11 4394 9330
+                                    info@cucchiara.co.nz<br/>11-19 Customs Street West<br>Level 16-18 Commercial<br>Bay Auckland, 1010, New<br>Zealand<br/>Phone: +64 09 446 0363
                                 </div>
                             </div>
                             <div class="flex xxs:items-end xs:items-center sm:items-center md:items-center lg:items-start xxs:justify-end xs:justify-end sm:justify-end md:justify-end lg:justify-between xxs:flex-col-reverse xs:flex-col-reverse xs:flex-col-reverse sm:flex-col-reverse md:flex-col-reverse lg:flex-row xl:flex-row xxs:w-2/5 xs:w-2/5 sm:w-2/5 md:w-2/5 lg:w-1/4 lg:pl-4 xl:pl-12">
@@ -211,56 +186,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="grid justify-items-center items-center gap-0 xxs:grid-cols-3 xs:grid-cols-3 sm:grid-cols-3 lg:grid-cols-9 py-6">
-                            <div>
-                                <a href="https://www.byma.com.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_01.png') }}" class="" alt="footer_01"/></div>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="https://cajadevalores.com.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_02.png') }}" class="" alt="footer_02"/></div>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="https://www.matbarofex.com.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_03.png') }}" class="" alt="footer_03"/></div>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="https://www.mav-sa.com.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_05.png') }}" class="" alt="footer_05"/></div>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="https://www.emta.org/markets/markets-a-g/argentina/" target="blank">
-                                    <div><img src="{{ asset('/img/footer_06.png') }}" class="" alt="footer_06"/></div>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="http://www.cnv.gov.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_09.png') }}" class="" alt="footer_08"/></div>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="http://www.cadab.org.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_07.png') }}" class="" alt="footer_07"/></div>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="https://www.mae.com.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_04.png') }}" class="lg:w-28 lg:max-w-4xl" alt="footer_04"/></div>
-                                </a>
-                            </div>
-                            <div class="">
-                                <a class="" href="https://www.bcra.gob.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_08.png') }}" class="lg:max-w-xs xl:max-w-xs md:w-full lg:w-40 xl:w-60 md:ml-0 lg:ml-12 xl:ml-20" alt="footer_07"/></div>
-                                </a>
-                            </div>
-                        </div>
+                        <div class="py-6 border-menu-line-footer"></div>
                         <div class="text-center py-6">
-                            <div> ALyC Integral registro Nro. 265 CNV |Miembro de BYMA Nro. 18 | Miembro de ROFEX Nro. 472 | Miembro de MAE Nro. 672</div>
-                            <div>© 2023 Cuchiarra Todos los derechos reservados. Diseño y desarollo por Folklore</div>
+                            <div>Proveedor de Servicios Financieros Nro. 481546 New Zealand Business Nro. 9429030127722</div>
+                            <div>© 2024 Cucchiara y Cía. Todos los derechos reservados. Diseño y desarollo por Folklore</div>
                         </div>
                     </div>
                 </div>

@@ -10,7 +10,7 @@
         <link rel="canonical" href="//"/>
         <meta property="og:url" content="//"/>
         <meta name="description" content="Agente de Negociación Liquidación y Compensación."/>
-        <link rel="icon" type="image/png" href="{{ asset('/img/favicon-96x96.png') }}"/>
+        <link rel="icon" type="image/png" href="{{ asset('/img/favicon.png') }}"/>
         <meta name="theme-color" content="#5540af"/>
         <meta property="og:site_name" content="Cucchiara"/>
         <meta property="og:image" content="{{ asset('/img/Fondocompletolinea.jpg') }}"/>
@@ -36,7 +36,7 @@
                 <div class="w-full z-50 top-0 py-3 sm:py-5 relative bg-white justify-center">
                     <div class="container flex items-center justify-between">
                         <div>
-                            <a href="/inicio">
+                            <a href="/home">
                                 <img src="{{ asset('/img/Logo_Color-01.png') }}" class=" xxs:w-28 xs:w-48 sm:w-60 md:w-60 lg:w-64 xl:w-60" alt="logo image"/>
                             </a>
                         </div>
@@ -44,13 +44,13 @@
                             <div class="hidden lg:block">
                                 <ul class="nav-lang flex items-center">
                                     <li class="text-color-cucchiara group pl-6">
-                                        <a class="flex items-center justify-center rounded bg-white p-custom-esp-buttom text-base font-bold uppercase hover:bg-cyan-20">
+                                        <a class="flex items-center justify-center rounded-md bg-white p-custom-esp-buttom text-base font-bold uppercase hover:bg-cyan-20">
                                             ESP
                                             <i class="bx bx-chevron-down relative -right-2 text-3xl"></i>
                                         </a>
                                         <ul>
                                             <li class="text-color-cucchiara text-base font-bold uppercase w-20">
-                                                <a class="hover:bg-cyan-20 flex items-center justify-center rounded pr-41-custom py-2 pl-4" href="/eng">
+                                                <a class="hover:bg-cyan-20 flex items-center justify-center rounded-md pr-41-custom py-1 pl-4" href="/eng">
                                                     ENG
                                                 </a>
                                             </li>
@@ -65,7 +65,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="container flex items-center justify-between border-menu-line-top mt-6 hidden lg:flex">
+                    <div class="container flex items-center justify-between border-menu-line-top mt-8 hidden lg:flex">
                         <div>
                         </div>
                         <div class="hidden lg:block">
@@ -78,21 +78,6 @@
                                 <li class="group pl-20">
                                     <a href="/servicios">
                                         <span @if(request()->is('servicios')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Servicios</span>
-                                    </a>
-                                </li>
-                                <li class="group pl-20">
-                                    <a href="/inicio">
-                                        <span @if(request()->is('nosotros')) class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Fondos</span>
-                                    </a>
-                                </li>
-                                <li class="group pl-20">
-                                    <a href="/investigacion">
-                                        <span @if(request()->is('investigacion')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Research</span>
-                                    </a>
-                                </li>
-                                <li class="group pl-20">
-                                    <a href="/inicio">
-                                        <span @if(request()->is('nosotros')) class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Opere online</span>
                                     </a>
                                 </li>
                             </ul>
@@ -115,15 +100,6 @@
                             </li>
                             <li class="py-4">
                                 <a href="/servicios"><span class="cursor-pointer font-body font-semibold text-white">Servicios</span></a>
-                            </li>
-                            <li class="py-4">
-                                <a href="/inicio"><span class="cursor-pointer font-body font-semibold text-white">Fondos</span></a>
-                            </li>
-                            <li class="py-4">
-                                <a href="/investigacion"><span class="cursor-pointer font-body font-semibold text-white">Research</span></a>
-                            </li>
-                            <li class="py-4">
-                                <a href="/inicio"><span class="cursor-pointer font-body font-semibold text-white">Opere online</span></a>
                             </li>
                         </ul>
                     </div>
