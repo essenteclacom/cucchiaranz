@@ -25,13 +25,13 @@
                         </div>
                     </div>
                     <div class="ml-4">
-                        <img src="{{ asset('/img/services_01.png') }}" class="xxs:w-20 sm:w-auto lg:w-56" alt="about image"/>
+                        <img src="{{ asset('/img/services_01.png') }}" class="xxs:w-20 sm:w-28" alt="about image"/>
                     </div>
                 </div>
                 <div class="border border-services-c"></div>
                 <div class="container flex flex-row lg:px-40 py-32 items-center justify-center">
                     <div class="mr-4">
-                        <img src="{{ asset('/img/services_02.png') }}" class="xxs:w-20 sm:w-auto lg:w-56" alt="about image"/>
+                        <img src="{{ asset('/img/services_02.png') }}" class="xxs:w-20 sm:w-28" alt="about image"/>
                     </div>
                     <div class="text-white xs:pl-3 lg:pl-20">
                         <div class="text-xl font-bold text-left max-w-3xl">

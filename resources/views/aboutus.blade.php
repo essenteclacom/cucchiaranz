@@ -13,8 +13,8 @@
                             Our History
                         </h2>
                         <div class="xxs:pt-6 xs:pt-6 sm:pt-10 md:pt-10 lg:pt-10 xl:pt-10">
-                            <p class="font-body text-white text-center text-shadow xs:text-xs md:text-lg lg:text-lg xl:text-lg pb-12">
-                                Cucchiara and Cía. S.A. has a rich history within the Argentine stock market, which reinforces its extensive<br>experience in the industry.
+                            <p class="font-body text-white text-center text-shadow xs:text-xs md:text-lg lg:text-lg xl:text-lg pb-28">
+                                In 2016, Cucchiara y Cía. LTD obtained authorization as a Financial Service Provider (FSP) from the Financial Markets Authority (FMA) of New Zealand. With a robust track record in the global financial market, our roots are deeply intertwined between Cucchiara y Cía. SA, a full-service broker (ALYC) based in Argentina, regulated by the Comisión Nacional de Valores, and Sekoia Agente de Valores SA, a broker-dealer located in Uruguay operating under the supervision of the local Central Bank.
                             </p>
                         </div>
                         <div class="absolute bg-contain bg-center bg-no-repeat mx-auto inset-0 w-auto h-auto" style="background-image: url('{{ asset('/img/map_about.png')}}')"></div>
