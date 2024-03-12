@@ -41,24 +41,24 @@
             Services
         </span>
         <div class="grid grid-cols-2 xxs:gap-1 gap-y-10 pt-10 sm:gap-x-6 md:gap-x-14 lg:gap-x-14 xl:gap-x-20 md:pt-12">
-            <div class="rounded-lg sm:px-8 md:px-8 lg:px-8 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-8 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
-                <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
+            <div class="rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row justify-between items-center">
+                <div class="flex items-center xxs:text-center sm:text-left xxs:mt-6 sm:mb-0">
                     <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
                         Brokerage
                     </h3>
                 </div>
                 <div>
-                   <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="xxs:w-20 lg:w-40"/>
+                    <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="xxs:w-20"/>
                 </div>
             </div>
-            <div class="rounded-lg sm:px-8 md:px-8 lg:px-8 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-8 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
-                <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
+            <div class="rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row justify-between items-center">
+                <div class="flex items-center xxs:text-center sm:text-left xxs:mt-6 sm:mb-0">
                     <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
                         Financial<br>Advisory
                     </h3>
                 </div>
                 <div>
-                    <img src="{{ asset('/img/card_02.png') }}" alt="content marketing icon" class="xxs:w-20 lg:w-40"/>
+                    <img src="{{ asset('/img/card_02.png') }}" alt="content marketing icon" class="xxs:w-20"/>
                 </div>
             </div>
         </div>

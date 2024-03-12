@@ -78,7 +78,7 @@
                             <ul class="flex items-center pt-5">
                                 <li class="group pl-28">
                                     <a href="/aboutus">
-                                        <span @if(request()->is('aboutus')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>About US</span>
+                                        <span @if(request()->is('aboutus')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>About Us</span>
                                     </a>
                                 </li>
                                 <li class="group pl-28">
@@ -102,7 +102,7 @@
                         </button>
                         <ul class="mt-8 flex flex-col">
                             <li class="py-4">
-                                <a href="/aboutus"><span class="cursor-pointer font-body font-semibold text-white">About us</span></a>
+                                <a href="/aboutus"><span class="cursor-pointer font-body font-semibold text-white">About Us</span></a>
                             </li>
                             <li class="py-4">
                                 <a href="/services"><span class="cursor-pointer font-body font-semibold text-white">Services</span></a>
