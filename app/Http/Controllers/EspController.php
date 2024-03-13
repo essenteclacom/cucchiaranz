@@ -16,14 +16,11 @@ class EspController extends Controller {
             case "home":
                 return redirect('inicio');
                 break;
-            case "about":
-                return redirect('acercade');
+            case "aboutus":
+                return redirect('nosotros');
                 break;
             case "services":
                 return redirect('servicios');
-                break;
-            case "research":
-                return redirect('investigacion');
                 break;
             case "regulations":
                 return redirect('normativas');

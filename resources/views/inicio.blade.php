@@ -48,7 +48,7 @@
                     </h3>
                 </div>
                 <div>
-                    <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="xxs:w-20"/>
+                   <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="xxs:w-20"/>
                 </div>
             </div>
             <div class="rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row justify-between items-center">
@@ -80,22 +80,22 @@
             <div class="grid grid-cols-4 gap-0 content-start">
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/icon_openaccount_01.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon project"/>
+                        <img src="{{ asset('/img/icon_openaccount_01.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon_openaccount_01"/>
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/icon_openaccount_02.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon award"/>
+                        <img src="{{ asset('/img/icon_openaccount_02.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon_openaccount_02"/>
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/icon_openaccount_03.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon happy clients"/>
+                        <img src="{{ asset('/img/icon_openaccount_03.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon_openaccount_03"/>
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/icon_openaccount_04.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon puzzle"/>
+                        <img src="{{ asset('/img/icon_openaccount_04.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon_openaccount_04"/>
                     </div>
                 </div>
             </div>
@@ -129,7 +129,7 @@
         <div class="container xxs:flex-col sm:flex-row md:flex-row lg:flex-row flex xl:flex-row  items-center justify-between py-16 md:py-20 lg:flex-row">
             <div class="sm:px-8  xl:pr-28">
                 <h2 class="font-body xxs:pb-8 xs:text-base sm:text-2xl md:text-4xl lg:text-5xl font-bold text-white">
-                    ¿Quénecesitás para abrir tu cuenta?
+                    ¿Qué necesitás para abrir tu cuenta?
                 </h2>
             </div>
             <div class="flex xxs:gap-8 sm:gap-2 xxs:flex-col sm:flex-row">
@@ -150,7 +150,7 @@
                         <div class="back-card">
                             <div class="gradient-cucciara rounded-1 shadow xxs:h-48 xs:h-44 xxs:w-56 xs:w-48 sm:h-48 sm:w-48 md:mr-8 md:w-48 lg:h-64 lg:w-72">
                                 <div class="text-left text-white xs:px-5 sm:px-5 xxs:pt-6 xs:pt-6 sm:pt-6 md:pt-6 md:px-5 lg:px-9 lg:pt-10">
-                                    <p class="font-body xxs:text-xxs xs:text-xxs sm:text-xxs lg:text-xxs">
+                                    <p class="font-body xxs:text-xss xs:text-xs sm:text-xs lg:text-xs">
                                         · Declaration of net worth and income.<br/>
                                         · Photocopy of photo ID or passport.<br/>
                                         · In the case of a Power of Attorney, a photo ID of the authorized person as well as a notarized copy of said Power of Attorney.<br/>
@@ -181,7 +181,7 @@
                         <div class="back-card">
                             <div class="gradient-cucciara rounded-1 shadow xxs:h-48 xs:h-44 xxs:w-56 xs:w-48 sm:h-48 sm:w-48 md:w-48 lg:h-64 lg:w-72">
                                 <div class="text-left text-white xs:px-5 sm:px-5 xxs:pt-2 xs:pt-2 sm:pt-6 md:pt-6 md:px-5 lg:px-9 lg:pt-4">
-                                    <p class="font-body xxs:text-xxs xs:text-xxs sm:text-xxs lg:text-xxs">
+                                    <p class="font-body xxs:text-xxs xs:text-xs sm:text-xs lg:text-xs">
                                         · Articles of Association together with Certificate of Good Standing.<br/>
                                         · Shareholders´ Register updated as of the date of the account opening.<br/>
                                         · Board Meeting minutes approving the most recent financial statements.<br/>

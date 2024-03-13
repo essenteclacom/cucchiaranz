@@ -107,15 +107,6 @@
                             <li class="py-4">
                                 <a href="/services"><span class="cursor-pointer font-body font-semibold text-white">Services</span></a>
                             </li>
-                            <li class="py-4">
-                                <a href="/home"><span class="cursor-pointer font-body font-semibold text-white">Mutual Funds</span></a>
-                            </li>
-                            <li class="py-4">
-                                <a href="/research"><span class="cursor-pointer font-body font-semibold text-white">Research</span></a>
-                            </li>
-                            <li class="py-4">
-                                <a href="/home"><span class="cursor-pointer font-body font-semibold text-white">Trade online</span></a>
-                            </li>
                         </ul>
                     </div>
                 </div>

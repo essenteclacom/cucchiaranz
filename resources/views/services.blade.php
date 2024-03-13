@@ -25,20 +25,20 @@
                         </div>
                     </div>
                     <div class="ml-4">
-                        <img src="{{ asset('/img/services_01.png') }}" class="xxs:w-20 sm:w-auto lg:w-56" alt="about image"/>
+                        <img src="{{ asset('/img/services_01.png') }}" class="xxs:w-20 sm:w-28" alt="about image"/>
                     </div>
                 </div>
                 <div class="border border-services-c"></div>
                 <div class="container flex flex-row lg:px-40 py-32 items-center justify-center">
                     <div class="mr-4">
-                        <img src="{{ asset('/img/services_02.png') }}" class="xxs:w-20 sm:w-auto lg:w-56" alt="about image"/>
+                        <img src="{{ asset('/img/services_02.png') }}" class="xxs:w-20 sm:w-28" alt="about image"/>
                     </div>
                     <div class="text-white xs:pl-3 lg:pl-20">
                         <div class="text-xl font-bold text-left max-w-3xl">
                             Financial Advisory
                         </div>
                         <div class="xxs:text-xs xs:text-base sm:text-base text-left max-w-3xl pt-5 pr-32">
-                            We provide custody and securities servicing solutions to institutional clients and investors.
+                            Nuestro equipo de profesionales brinda soluciones de inversión adaptadas a cada perfil de cliente y sus necesidades financieras. Ofrecemos una visión a largo plazo y buscamos la obtención de la mejor relación de riesgo/rentabilidad según cada contexto de mercado.
                         </div>
                     </div>
                 </div>
