@@ -21,13 +21,14 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet"/> -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans:ital,wght@0,100,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet"/>
         <link crossorigin="anonymous" href="{{ asset('/css/custom.css') }}" media="screen" rel="stylesheet"/>
         <script src="https://cdn.tailwindcss.com"></script>
         <script defer src="https://unpkg.com/@alpine-collective/toolkit@1.0.0/dist/cdn.min.js"></script>
         <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
         <script src="https://kit.fontawesome.com/68e2eb1b2d.js" crossorigin="anonymous"></script>
+        <script src="{{ asset('/js/animations.js')}}"></script>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
     </head>
     <body :class="{ 'overflow-hidden max-h-screen': mobileMenu }" class="relative" x-data="{ mobileMenu: false }">
@@ -36,7 +37,7 @@
                 <div class="w-full z-50 top-0 py-3 sm:py-5 relative bg-white justify-center">
                     <div class="container flex items-center justify-between">
                         <div>
-                            <a href="/home">
+                            <a href="/inicio">
                                 <img src="{{ asset('/img/Logo_Color-01.png') }}" class=" xxs:w-28 xs:w-48 sm:w-60 md:w-60 lg:w-64 xl:w-60" alt="logo image"/>
                             </a>
                         </div>
@@ -155,7 +156,7 @@
                 </div>
                 {{-- end contact --}}
                 {{-- map --}}
-                <a href="https://goo.gl/maps/aD9gLy3DTLgALnwt5" target="blank">
+                <a href="https://www.google.com/maps/place/11+Customs+Street+West,+Auckland+CBD,+Auckland+1010,+Nueva+Zelanda/@-36.8465052,174.7637263,16.5z/data=!4m5!3m4!1s0x6d0d47f981cb7917:0xb873537bb913e5dc!8m2!3d-36.8443568!4d174.7655416?hl=es-419&entry=ttu" target="blank">
                     <div class="bg-cover bg-center bg-no-repeat xxs:h-40 xs:h-64 sm:h-64 md:h-72 lg:h-96 xl:w-full border-color-cucchiara border-y-4" style="background-image: url({{ asset('/img/mapa_footer.png')}})"></div>
                 </a>
                 {{-- end map --}}

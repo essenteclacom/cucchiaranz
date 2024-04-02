@@ -8,11 +8,11 @@
         <div class="sm:bg-no-repeat md:bg-no-repeat lg:relative lg:bg-cover lg:bg-center lg:bg-no-repeat xl:w-full xl:max-w-full xl:overflow-hidden xl:h-auto xl:grid xl:bg-cover xl:bg-no-repeat xl:bg-top justify-center items-center" style="background-image: url('{{ asset('/img/background_home.png')}}')">
             <div class="container relative z-30 xxs:pb-48 xs:pb-52 sm:pb-72 md:pb-96 lg:pb-96">
                 <div class="xxs:text-center xs:text-center sm:text-center md:text-left lg:text-left xxs:pt-8 xs:pt-8 sm:pt-20 xl:pt-32 sm:pr-0 md:pr-60 xl:pr-64">
-                    <h1 class="font-body font-bolder text-white xxs:text-2xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl">
+                    <h1 class="font-body font-bolder text-white xxs:text-2xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl animacionfade">
                         Comercio a nivel mundial en los mercados financieros
                     </h1>
                     <div class="xxs:pt-12 xs:pt-12 sm:pt-12 md:pt-12 lg:pt-12 xl:pt-12 pl-0 md:pl-1 sm:pr-0 md:pr-60 xl:pr-64">
-                        <p class="font-body text-white font-normal xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-xl">
+                        <p class="font-body text-white font-normal xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-xl animacionfade">
                             Desde acciones hasta fondos mutuos, destacamos por nuestra transparencia y orientación personalizada. Facilitamos el acceso a los mercados internacionales. Nuestros clientes disfrutan de acceso directo a las principales bolsas de valores globales, lo que les permite explorar y capitalizar diversas oportunidades de inversión. Inverí con confianza y apoyo constante.
                         </p>
                     </div>
@@ -44,7 +44,9 @@
             <div class="rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row justify-between items-center">
                 <div class="flex items-center xxs:text-center sm:text-left xxs:mt-6 sm:mb-0">
                     <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
-                        Operaciones<br>Financieras
+                        <a href="/servicios">
+                            Operaciones<br>Financieras
+                        </a>
                     </h3>
                 </div>
                 <div>
@@ -54,7 +56,9 @@
             <div class="rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row justify-between items-center">
                 <div class="flex items-center xxs:text-center sm:text-left xxs:mt-6 sm:mb-0">
                     <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
-                        Asesoramiento<br>de cartera
+                        <a href="/servicios">
+                            Asesoramiento<br>de cartera
+                        </a>
                     </h3>
                 </div>
                 <div>

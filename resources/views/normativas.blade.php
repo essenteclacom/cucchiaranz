@@ -35,10 +35,10 @@
                             </div>
                         </div>
                         <div class="xxs:pt-4 xs:pt-4 sm:pt-0 md:pt-32 items-center justify-center">
-                            <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-xl w-72 mb-2">
+                            <a href="https://fsp-app.companiesoffice.govt.nz/orp-fsp-register/viewInstance/view.html?id=757b371f1b6eec44bad4008937136b8f5d6e41a918e243dbef10caad30e045ae&_timestamp=7894451527668311" target="blank" class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-xl w-72 mb-2">
                                 FSP Registration
                             </a>
-                            <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-xl w-72 mb-2">
+                            <a href="https://app.companiesoffice.govt.nz/companies/app/service/services/documents/E760A5071EAC228079F8F08CEE550517/CertIncorporation_4558080_25January2024.pdf" target="blank" class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-xl w-72 mb-2">
                                 Certificate of Incorporation
                             </a>
                         </div>

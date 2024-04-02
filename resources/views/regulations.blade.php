@@ -8,7 +8,7 @@
         <div style="background-image: url({{ asset('/img/Universidad.png')}})" class="bg-cover bg-center bg-no-repeat xxs:h-48 xs:h-48 sm:h-84 lg:h-64 xl:h-96">
             <div class="container flex items-center justify h-full">
                 <p class="font-body text-white text-center text-shadow xxs:text-xs xs:text-base sm:text-1xl md:text-2xl lg:text-2xl xl:text-2xl">
-                    Cucchiara y Cía S.A. se adhiere y cumple rigurosamente todas las normativas vigentes del mercado de capitales argentino velando por la transparencia y la integridad de todas sus operaciones.
+                    Cucchiara y Cía LTD is committed to safeguarding the interests of investors and ensuring the transparency and integrity of its operations in the financial market.
                 </p>
                 <div class="xxs:h-3 xs:h-20 sm:h-32 md:h-48 lg:h-80 xl:h-96"></div>
             </div>
@@ -35,10 +35,10 @@
                             </div>
                         </div>
                         <div class="xxs:pt-4 xs:pt-4 sm:pt-0 md:pt-32 items-center justify-center">
-                            <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-xl w-72 mb-2">
+                            <a href="https://fsp-app.companiesoffice.govt.nz/orp-fsp-register/viewInstance/view.html?id=757b371f1b6eec44bad4008937136b8f5d6e41a918e243dbef10caad30e045ae&_timestamp=7894451527668311" target="blank" class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-xl w-72 mb-2">
                                 FSP Registration
                             </a>
-                            <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-xl w-72 mb-2">
+                            <a href="https://app.companiesoffice.govt.nz/companies/app/service/services/documents/E760A5071EAC228079F8F08CEE550517/CertIncorporation_4558080_25January2024.pdf" target="blank" class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-xl w-72 mb-2">
                                 Certificate of Incorporation
                             </a>
                         </div>

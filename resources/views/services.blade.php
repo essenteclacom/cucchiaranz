@@ -38,7 +38,7 @@
                             Financial Advisory
                         </div>
                         <div class="xxs:text-xs xs:text-base sm:text-base text-left max-w-3xl pt-5 pr-32">
-                            Nuestro equipo de profesionales brinda soluciones de inversión adaptadas a cada perfil de cliente y sus necesidades financieras. Ofrecemos una visión a largo plazo y buscamos la obtención de la mejor relación de riesgo/rentabilidad según cada contexto de mercado.
+                            Our team of professionals provides investment solutions tailored to each client's profile and financial needs. We offer a long-term vision and seek to achieve the best risk/return ratio according to each market context.
                         </div>
                     </div>
                 </div>
