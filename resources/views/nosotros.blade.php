@@ -84,17 +84,17 @@
             <div class="grid grid-cols-3 pt-10 sm:mx-10 md:mx-10 lg:mx-40 xl:mx-40">
                 <div class="flex items-center justify-center">
                     <div>
-                        <img src="{{ asset('/img/about_logo_01.png') }}"class="w-40 h-auto" alt="icon happy clients"/>
+                        <img src="{{ asset('/img/about_logo_01.png') }}"class="w-48 h-auto" alt="icon happy clients"/>
                     </div>
                 </div>
                 <div class="flex items-center justify-center">
                     <div>
-                        <img src="{{ asset('/img/about_logo_02.png') }}"class="w-28 h-auto" alt="icon puzzle"/>
+                        <img src="{{ asset('/img/about_logo_02.png') }}"class="w-36 h-auto" alt="icon puzzle"/>
                     </div>
                 </div>
                 <div class="flex items-center justify-center">
                     <div>
-                        <img src="{{ asset('/img/about_logo_03.png') }}"class="w-40 h-auto" alt="icon puzzle"/>
+                        <img src="{{ asset('/img/about_logo_03.png') }}"class="w-48 h-auto" alt="icon puzzle"/>
                     </div>
                 </div>
             </div>

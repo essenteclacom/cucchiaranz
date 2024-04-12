@@ -79,7 +79,7 @@
                             <ul class="flex items-center pt-5">
                                 <li class="group pl-28">
                                     <a href="/aboutus">
-                                        <span @if(request()->is('aboutus')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>About Us</span>
+                                        <span @if(request()->is('aboutus')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>About us</span>
                                     </a>
                                 </li>
                                 <li class="group pl-28">

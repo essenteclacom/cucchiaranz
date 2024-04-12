@@ -8,7 +8,7 @@
         <div style="background-image: url({{ asset('/img/services_main.png')}})" class="bg-cover bg-center bg-no-repeat xxs:h-48 xs:h-48 sm:h-84 lg:h-64 xl:h-96">
             <div class="container flex items-center justify h-full">
                 <p class="font-body text-white text-center text-shadow xxs:text-xxs xs:text-base sm:text-1xl md:text-2xl lg:text-2xl xl:text-2xl">
-                    The Company is focused on providing savers, investors and institutional clients with solutions through a large range of financial products. Cucchiara operates with regulated banks and brokers who enjoy excellent ratings and reputation in the international financial markets.Given our FSP status, we are not a member of any Stock Exchange.
+                    The Company is focused on delivering comprehensive financial solutions to savers, investors, and institutional clients. Cucchiara y Cía. LTD collaborates with regulated banks and brokers, such as the Commonwealth Bank of Australia, the Bank of New Zealand, Interactive Brokers, Creand Wealth Management, and Bank of New York Mellon, all known for their outstanding reputation in the financial sector. Operating under our Financial Service Provider (FSP) status ensures our independence, and we are not tied to any specific stock exchange.
                 </p>
                 <div class="xxs:h-3 xs:h-20 sm:h-32 md:h-48 lg:h-80 xl:h-96"></div>
             </div>

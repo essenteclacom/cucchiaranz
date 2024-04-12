@@ -9,7 +9,7 @@
             <div class="container relative z-30 xxs:pb-48 xs:pb-52 sm:pb-72 md:pb-96 lg:pb-96">
                 <div class="xxs:text-center xs:text-center sm:text-center md:text-left lg:text-left xxs:pt-8 xs:pt-8 sm:pt-20 xl:pt-32 sm:pr-0 md:pr-60 xl:pr-64">
                     <h1 class="font-body font-bolder text-white xxs:text-2xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl animacionfade">
-                        Trade worldwide across financial markets
+                        Trade worldwide across<br/>financial markets
                     </h1>
                     <div class="xxs:pt-12 xs:pt-12 sm:pt-12 md:pt-12 lg:pt-12 xl:pt-12 pl-0 md:pl-1 sm:pr-0 md:pr-60 xl:pr-64">
                         <p class="font-body text-white font-normal xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-xl animacionfade">
@@ -23,7 +23,7 @@
                 </div>
                 <div class="xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left">
                     <span class="text-white font-body font-bold xxs:text-2xl sm:text-3xl lg:text-3xl xl:text-4xl">
-                        About Us
+                        About us
                     </span>
                     <div class="xxs:pt-8 xs:pt-8 sm:pt-8 md:pt-8 lg:pt-8 xl:pt-8">
                         <p class="font-body text-white font-normal xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-2xl">
@@ -41,30 +41,30 @@
             Services
         </span>
         <div class="grid grid-cols-2 xxs:gap-1 gap-y-10 pt-10 sm:gap-x-6 md:gap-x-14 lg:gap-x-14 xl:gap-x-20 md:pt-12">
-            <div class="rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row justify-between items-center">
-                <div class="flex items-center xxs:text-center sm:text-left xxs:mt-6 sm:mb-0">
-                    <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
-                        <a href="/services">
+            <a href="/services">
+                <div class="rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row justify-between items-center">
+                    <div class="flex items-center xxs:text-center sm:text-left xxs:mt-6 sm:mb-0">
+                        <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
                             Brokerage
-                        </a>
-                    </h3>
+                        </h3>
+                    </div>
+                    <div>
+                    <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="xxs:w-20"/>
+                    </div>
                 </div>
-                <div>
-                   <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="xxs:w-20"/>
-                </div>
-            </div>
-            <div class="rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row justify-between items-center">
-                <div class="flex items-center xxs:text-center sm:text-left xxs:mt-6 sm:mb-0">
-                    <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
-                        <a href="/services">
+            </a>
+            <a href="/services">
+                <div class="rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row justify-between items-center">
+                    <div class="flex items-center xxs:text-center sm:text-left xxs:mt-6 sm:mb-0">
+                        <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
                             Financial<br>Advisory
-                        </a>
-                    </h3>
+                        </h3>
+                    </div>
+                    <div>
+                        <img src="{{ asset('/img/card_02.png') }}" alt="content marketing icon" class="xxs:w-20"/>
+                    </div>
                 </div>
-                <div>
-                    <img src="{{ asset('/img/card_02.png') }}" alt="content marketing icon" class="xxs:w-20"/>
-                </div>
-            </div>
+            </a>
         </div>
     </div>
     {{-- end cards --}}
@@ -79,7 +79,7 @@
             <img src="{{ asset('/img/iconosopenaccount-02e.png') }}" alt="" class="pic xxs:h-56 xs:h-56 flex justify-center">
             <img src="{{ asset('/img/iconosopenaccount-03e.png') }}" alt="" class="pic xxs:h-56 xs:h-56 flex justify-center">
         </div>
-        <div class="mx-auto bg-white xxs:py-12 xs:py-20 sm:py-16 md:py-12 lg:py-20 xl:py-20 md:block xxs:hidden">
+        <div class="mx-auto bg-white xxs:py-12 xs:py-20 sm:py-16 md:py-12 lg:py-20 xl:py-20 md:block xxs:hidden px-32">
             <div class="grid grid-cols-3 gap-0 content-start">
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
@@ -144,11 +144,13 @@
                             <div class="gradient-cucciara rounded-1 shadow xxs:h-48 xs:h-44 xxs:w-56 xs:w-48 sm:h-48 sm:w-48 md:mr-8 md:w-48 lg:h-64 lg:w-72">
                                 <div class="text-left text-white xs:px-5 sm:px-5 xxs:pt-6 xs:pt-6 sm:pt-6 md:pt-6 md:px-5 lg:px-9 lg:pt-10">
                                     <p class="font-body xxs:text-xxs xs:text-xs sm:text-xs lg:text-xs">
-                                        · Identification document.<br/>
-                                        · Proof of income and net worth.<br/>
-                                        · Proof of address.<br/>
-                                        · Optional: latest income tax and personal assets declarations.<br/>
-                                        · Representatives: Identification document and power of attorney before a Notary Public.<br/>
+                                        <ul class="list-disc font-body xxs:text-xs xs:text-xxs sm:text-xxs lg:text-xs">
+                                            <li>Identification document.</li>
+                                            <li>Proof of income and net worth.</li>
+                                            <li>Proof of address.</li>
+                                            <li>Optional: latest income tax and personal assets declarations.</li>
+                                            <li>Representatives: Identification document and power of attorney before a Notary Public.</li>
+                                        </ul>
                                     </p>
                                 </div>
                                 <div class="text-right xs:pt-0-5 lg:pt-8 px-9 pb-4 underline underline-offset-4">
@@ -176,15 +178,17 @@
                             <div class="gradient-cucciara rounded-1 shadow xxs:h-48 xs:h-44 xxs:w-56 xs:w-48 sm:h-48 sm:w-48 md:w-48 lg:h-64 lg:w-72">
                                 <div class="text-left text-white xs:px-5 sm:px-5 xxs:pt-2 xs:pt-2 sm:pt-6 md:pt-6 md:px-5 lg:px-9 lg:pt-4">
                                     <p class="font-body xxs:text-xxs xs:text-xs sm:text-xxs lg:text-xxs">
-                                        · Articles of Association together and Certificate of Good Standing.<br/>
-                                        · Shareholder Registry.<br/>
-                                        · Minutes of the General Assembly approving the latest financial statement along with the Board of Directors' minutes.<br/>
-                                        · General Assembly and Board of Directors' minutes with current positions.<br/>
-                                        · Identification and address documents of legal representatives.<br/>
-                                        · Financial statements certified by an external auditor and legalized by a relevant body.<br/>
-                                        · Latest income tax declarations.<br/>
-                                        · Proof of address of the Company.<br/>
-                                        · Documents referred to above should be apostilled.
+                                        <ul class="list-disc font-body xxs:text-xxs xs:text-xxs sm:text-xxs lg:text-xxs">
+                                            <li>Articles of Association together and Certificate of Good Standing.</li>
+                                            <li>Shareholder Registry.</li>
+                                            <li>Minutes of the General Assembly approving the latest financial statement along with the Board of Directors' minutes.</li>
+                                            <li>General Assembly and Board of Directors' minutes with current positions.</li>
+                                            <li>Identification and address documents of legal representatives.</li>
+                                            <li>Financial statements certified by an external auditor and legalized by a relevant body.</li>
+                                            <li>Latest income tax declarations.</li>
+                                            <li>Proof of address of the Company.</li>
+                                            <li>Documents referred to above should be apostilled.</li>
+                                        </ul>
                                     </p>
                                 </div>
                                 <div class="text-right xs:pt-0 lg:pt-2 px-9 pb-4 underline underline-offset-4">
