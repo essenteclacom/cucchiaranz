@@ -108,6 +108,9 @@
                             <li class="py-4">
                                 <a href="/servicios"><span class="cursor-pointer font-body font-semibold text-white">Servicios</span></a>
                             </li>
+                            <li class="py-4">
+                                <a href="/eng"><span class="cursor-pointer font-body font-semibold text-white">Change to english</span></a>
+                            </li>
                         </ul>
                     </div>
                 </div>

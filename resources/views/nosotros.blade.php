@@ -43,7 +43,7 @@
                                 En 2016, Cucchiara y Cía. LTD obtuvo la autorización como Proveedor de Servicios Financieros de laAutoridad de Mercados Financieros de Nueva Zelanda. Con una sólida trayectoria en el mercado financiero global, nuestras raíces están profundamente entrelazadas entre Cucchiara y Cía. SA, un corredor de servicio completo (ALYC) con sede enArgentina, regulado por la Comisión Nacional de Valores, y SekoiaAgente de Valores SA, un corredor de bolsa ubicado en Uruguay que opera bajo la supervisión delBanco Central local.
                             </p>
                         </div>
-                        <div class="absolute bg-contain bg-center bg-no-repeat mx-auto inset-0 w-auto h-auto" style="background-image: url('{{ asset('/img/map_about.png')}}')"></div>
+                        <div class="absolute bg-contain bg-center bg-no-repeat mx-auto inset-0 w-auto h-auto" style="background-image: url('{{ asset('/img/mapa_about.png')}}')"></div>
                     </div>
                     <div class="xxs:h-88 xs:h-112 sm:h-[40rem] md:h-[40rem] lg:h-[40rem] xl:h-[50rem]"></div>
                 </div>

@@ -21,7 +21,7 @@
                     </div> --}}
                     <div class="xxs:h-32 xs:h-20 sm:h-32 md:h-48 lg:h-80 xl:h-40"></div>
                 </div>
-                <div class="xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left">
+                <div class="xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left animacionfade">
                     <span class="text-white font-body font-bold xxs:text-2xl sm:text-3xl lg:text-3xl xl:text-4xl">
                         About us
                     </span>
@@ -36,41 +36,41 @@
     </div>
     {{-- end slide --}}
     {{-- cards --}}
-    <div class="container absolute inset-x-0 fieldset z-30 xxs:px-0 lg:px-28 xl:px-48 xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left xxs:-mt-32 xs:-mt-36 sm:-mt-48 md:-mt-80 lg:-mt-48 xl:-mt-64">
+    <div class="container absolute inset-x-0 fieldset z-30 xxs:px-0 lg:px-28 xl:px-48 xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left xxs:-mt-32 xs:-mt-36 sm:-mt-48 md:-mt-80 lg:-mt-48 xl:-mt-64 animacionfade">
         <span class="text-white font-body font-bold xxs:text-2xl sm:text-3xl lg:text-3xl xl:text-4xl">
             Services
         </span>
         <div class="grid grid-cols-2 xxs:gap-1 gap-y-10 pt-10 sm:gap-x-6 md:gap-x-14 lg:gap-x-14 xl:gap-x-20 md:pt-12">
             <a href="/services">
-                <div class="rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row justify-between items-center">
+                <div class="h-60 rounded-lg sm:px-8 md:px-8 lg:px-16 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row justify-between items-center">
                     <div class="flex items-center xxs:text-center sm:text-left xxs:mt-6 sm:mb-0">
                         <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
                             Brokerage
                         </h3>
                     </div>
                     <div>
-                    <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="xxs:w-20"/>
+                        <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="xxs:w-16 xxs:h-16"/>
                     </div>
                 </div>
             </a>
             <a href="/services">
-                <div class="rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row justify-between items-center">
+                <div class="h-60 rounded-lg sm:px-8 md:px-8 lg:px-16 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row justify-between items-center">
                     <div class="flex items-center xxs:text-center sm:text-left xxs:mt-6 sm:mb-0">
                         <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
                             Financial<br>Advisory
                         </h3>
                     </div>
                     <div>
-                        <img src="{{ asset('/img/card_02.png') }}" alt="content marketing icon" class="xxs:w-20"/>
+                        <img src="{{ asset('/img/card_02.png') }}" alt="content marketing icon" class="xxs:w-16 xxs:h-16"/>
                     </div>
                 </div>
             </a>
         </div>
     </div>
     {{-- end cards --}}
-    <div class="xxs:h-c-32 xs:h-c-34 sm:h-[23rem] md:h-44 lg:h-64 xl:h-44"></div>
+    <div class="xxs:h-64 xs:h-64 sm:h-[23rem] md:h-44 lg:h-64 xl:h-44"></div>
     {{-- open account --}}
-    <div class="container text-center">
+    <div class="container text-center animacionfade">
         <span class="font-bolder text-color-cucchiara text-center font-body xxs:text-3xl lg:text-3xl">
             Open your account today
         </span>
@@ -83,17 +83,17 @@
             <div class="grid grid-cols-3 gap-0 content-start">
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/icon_openaccount_01.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon_openaccount_01"/>
+                        <img src="{{ asset('/img/icon_openaccount_01.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-32" alt="icon_openaccount_01"/>
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/icon_openaccount_02.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon_openaccount_02"/>
+                        <img src="{{ asset('/img/icon_openaccount_02.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-32" alt="icon_openaccount_02"/>
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/icon_openaccount_03.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon_openaccount_03"/>
+                        <img src="{{ asset('/img/icon_openaccount_03.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-32" alt="icon_openaccount_03"/>
                     </div>
                 </div>
             </div>
@@ -125,7 +125,7 @@
                     What do you need to open your account?
                 </h2>
             </div>
-            <div class="flex xxs:gap-8 sm:gap-2 xxs:flex-col sm:flex-row">
+            <div class="flex xxs:gap-12 sm:gap-2 xxs:flex-col sm:flex-row">
                 <div class="wrapper-card">
                     <div class="single-card">
                         <div class="front-card">
@@ -133,7 +133,7 @@
                                 <div class="relative flex justify-center -top-8 sm:h-28 xxs:h-16 xs:h-16">
                                     <img src="{{ asset('/img/wrappedcard01.png') }}" alt="development icon"/>
                                 </div>
-                                <div class="text-center">
+                                <div class="text-center xxs:pt-4 md:pt-0">
                                     <h3 class="font-body font-semibold text-white xxs:text-base xs:text-base lg:text-3xl sm:text-xl">
                                         Individuals
                                     </h3>
@@ -142,9 +142,9 @@
                         </div>
                         <div class="back-card">
                             <div class="gradient-cucciara rounded-1 shadow xxs:h-48 xs:h-44 xxs:w-56 xs:w-48 sm:h-48 sm:w-48 md:mr-8 md:w-48 lg:h-64 lg:w-72">
-                                <div class="text-left text-white xs:px-5 sm:px-5 xxs:pt-6 xs:pt-6 sm:pt-6 md:pt-6 md:px-5 lg:px-9 lg:pt-10">
+                                <div class="text-left text-white xs:px-5 sm:px-5 xxs:pt-6 xs:pt-6 sm:pt-6 md:pt-6 md:px-5 lg:px-9 lg:pt-10 xxs:ml-8 sm:ml-0">
                                     <p class="font-body xxs:text-xxs xs:text-xs sm:text-xs lg:text-xs">
-                                        <ul class="list-disc font-body xxs:text-xs xs:text-xxs sm:text-xxs lg:text-xs">
+                                        <ul class="list-disc font-body xxs:text-xxs xs:text-xxs sm:text-xxs lg:text-xs">
                                             <li>Identification document.</li>
                                             <li>Proof of income and net worth.</li>
                                             <li>Proof of address.</li>
@@ -167,7 +167,7 @@
                                 <div class="relative flex justify-center -top-8 sm:h-28 xxs:h-16 xs:h-16">
                                     <img src="{{ asset('/img/wrappedcard02.png') }}" alt="development icon"/>
                                 </div>
-                                <div class="text-center">
+                                <div class="text-center  xxs:pt-4 md:pt-0">
                                     <h3 class="font-body font-semibold text-white xxs:text-base xs:text-base lg:text-3xl sm:text-xl">
                                         Corporate
                                     </h3>
@@ -176,22 +176,22 @@
                         </div>
                         <div class="back-card">
                             <div class="gradient-cucciara rounded-1 shadow xxs:h-48 xs:h-44 xxs:w-56 xs:w-48 sm:h-48 sm:w-48 md:w-48 lg:h-64 lg:w-72">
-                                <div class="text-left text-white xs:px-5 sm:px-5 xxs:pt-2 xs:pt-2 sm:pt-6 md:pt-6 md:px-5 lg:px-9 lg:pt-4">
+                                <div class="text-left text-white xs:px-5 sm:px-5 xxs:pt-2 xs:pt-2 sm:pt-6 md:pt-6 md:px-5 lg:px-9 lg:pt-4 xxs:ml-8 sm:ml-0">
                                     <p class="font-body xxs:text-xxs xs:text-xs sm:text-xxs lg:text-xxs">
-                                        <ul class="list-disc font-body xxs:text-xxs xs:text-xxs sm:text-xxs lg:text-xxs">
-                                            <li>Articles of Association together and Certificate of Good Standing.</li>
-                                            <li>Shareholder Registry.</li>
-                                            <li>Minutes of the General Assembly approving the latest financial statement along with the Board of Directors' minutes.</li>
-                                            <li>General Assembly and Board of Directors' minutes with current positions.</li>
-                                            <li>Identification and address documents of legal representatives.</li>
-                                            <li>Financial statements certified by an external auditor and legalized by a relevant body.</li>
-                                            <li>Latest income tax declarations.</li>
+                                        <ul class="list-disc font-body xxs:text-xxs xs:text-xxs sm:text-xxs lg:text-xs">
+                                            <li>Memorandum & Articles of Association.</li>
+                                            <li>Certificate of Good Standing.</li>
+                                            <li>Register of Shareholders (current).</li>
+                                            <li>Register of Directors (current) or equivalent.</li>
+                                            <li>Proof of address of the company.</li>
+                                            <li>Photo ID and proof of address of directors, legal representatives and beneficial owners.</li>
+                                            <li>Financial Statements.</li>
                                             <li>Proof of address of the Company.</li>
-                                            <li>Documents referred to above should be apostilled.</li>
+                                            <li>Latest Income Tax declarations.</li>
                                         </ul>
                                     </p>
                                 </div>
-                                <div class="text-right xs:pt-0 lg:pt-2 px-9 pb-4 underline underline-offset-4">
+                                <div class="text-right xs:pt-0 lg:pt-1 px-9 pb-4 underline underline-offset-4">
                                     <a href="" class="font-body font-bold text-a-color xxs:text-xxs xs:text-xxs sm:text-xxs md:text-xs lg:text-base">Open Account</a>
                                 </div>
                             </div>

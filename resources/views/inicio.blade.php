@@ -21,7 +21,7 @@
                     </div> --}}
                     <div class="xxs:h-32 xs:h-20 sm:h-32 md:h-48 lg:h-80 xl:h-40"></div>
                 </div>
-                <div class="xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left">
+                <div class="xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left animacionfade">
                     <span class="text-white font-body font-bold xxs:text-2xl sm:text-3xl lg:text-3xl xl:text-4xl">
                         Nosotros
                     </span>
@@ -36,41 +36,41 @@
     </div>
     {{-- end slide --}}
     {{-- cards --}}
-    <div class="container absolute inset-x-0 fieldset z-30 xxs:px-0 lg:px-28 xl:px-48 xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left xxs:-mt-32 xs:-mt-36 sm:-mt-48 md:-mt-80 lg:-mt-48 xl:-mt-64">
+    <div class="container absolute inset-x-0 fieldset z-30 xxs:px-0 lg:px-28 xl:px-48 xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left xxs:-mt-32 xs:-mt-36 sm:-mt-48 md:-mt-80 lg:-mt-48 xl:-mt-64 animacionfade">
         <span class="text-white font-body font-bold xxs:text-2xl sm:text-3xl lg:text-3xl xl:text-4xl">
             Servicios
         </span>
         <div class="grid grid-cols-2 xxs:gap-1 gap-y-10 pt-10 sm:gap-x-6 md:gap-x-14 lg:gap-x-14 xl:gap-x-20 md:pt-12">
             <a href="/servicios">
-                <div class="rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row justify-between items-center">
+                <div class="h-60 rounded-lg sm:px-8 md:px-8 lg:px-16 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row justify-between items-center">
                     <div class="flex items-center xxs:text-center sm:text-left xxs:mt-6 sm:mb-0">
                         <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
                             Operaciones<br>financieras
                         </h3>
                     </div>
                     <div>
-                        <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="xxs:w-20"/>
+                        <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="xxs:w-16 xxs:h-16"/>
                     </div>
                 </div>
             </a>
             <a href="/servicios">
-                <div class="rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row justify-between items-center">
+                <div class="h-60 rounded-lg sm:px-8 md:px-8 lg:px-16 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row justify-between items-center">
                     <div class="flex items-center xxs:text-center sm:text-left xxs:mt-6 sm:mb-0">
                         <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
                             Asesoramiento<br>de cartera
                         </h3>
                     </div>
                     <div>
-                        <img src="{{ asset('/img/card_02.png') }}" alt="content marketing icon" class="xxs:w-20"/>
+                        <img src="{{ asset('/img/card_02.png') }}" alt="content marketing icon" class="xxs:w-16 xxs:h-16"/>
                     </div>
                 </div>
             </a>
         </div>
     </div>
     {{-- end cards --}}
-    <div class="xxs:h-c-32 xs:h-c-34 sm:h-[23rem] md:h-44 lg:h-64 xl:h-44"></div>
+    <div class="xxs:h-64 xs:h-64 sm:h-[23rem] md:h-44 lg:h-64 xl:h-44"></div>
     {{-- open account --}}
-    <div class="container text-center">
+    <div class="container text-center animacionfade">
         <span class="font-bolder text-color-cucchiara text-center font-body xxs:text-3xl lg:text-3xl">
             Abrí tu cuenta hoy
         </span>
@@ -83,17 +83,17 @@
             <div class="grid grid-cols-3 gap-0 content-start">
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/icon_openaccount_01.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon_openaccount_01"/>
+                        <img src="{{ asset('/img/icon_openaccount_01.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-32" alt="icon_openaccount_01"/>
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/icon_openaccount_02.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon_openaccount_02"/>
+                        <img src="{{ asset('/img/icon_openaccount_02.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-32" alt="icon_openaccount_02"/>
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/icon_openaccount_03.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon_openaccount_03"/>
+                        <img src="{{ asset('/img/icon_openaccount_03.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-32" alt="icon_openaccount_03"/>
                     </div>
                 </div>
             </div>
@@ -125,7 +125,7 @@
                     ¿Qué necesitás para abrir tu cuenta?
                 </h2>
             </div>
-            <div class="flex xxs:gap-8 sm:gap-2 xxs:flex-col sm:flex-row">
+            <div class="flex xxs:gap-12 sm:gap-2 xxs:flex-col sm:flex-row">
                 <div class="wrapper-card">
                     <div class="single-card">
                         <div class="front-card">
@@ -142,17 +142,18 @@
                         </div>
                         <div class="back-card">
                             <div class="gradient-cucciara rounded-1 shadow xxs:h-48 xs:h-44 xxs:w-56 xs:w-48 sm:h-48 sm:w-48 md:mr-8 md:w-48 lg:h-64 lg:w-72">
-                                <div class="text-left text-white xs:px-5 sm:px-5 xxs:pt-6 xs:pt-6 sm:pt-6 md:pt-6 md:px-5 lg:px-9 lg:pt-10">
+                                <div class="text-left text-white xs:px-5 sm:px-5 xxs:pt-6 xs:pt-6 sm:pt-6 md:pt-6 md:px-5 lg:px-9 lg:pt-2 xxs:ml-8 sm:ml-0">
                                     <p class="font-body xxs:text-xss xs:text-xs sm:text-xs lg:text-xs">
-                                        <ul class="list-disc font-body xxs:text-xs xs:text-xxs sm:text-xxs lg:text-xs">
-                                            <li>Declaration of net worth and income.</li>
-                                            <li>Photocopy of photo ID or passport.</li>
-                                            <li>In the case of a Power of Attorney, a photo ID of the authorized person as well as a notarized copy of said Power of Attorney.</li>
-                                            <li>Copy of most recent tax returns.</li>
+                                        <ul class="list-disc font-body xxs:text-xxs xs:text-xxs sm:text-xxs lg:text-xs">
+                                            <li>Documento de identificación con fotografía.</li>
+                                            <li>Comprobante de domicilio.</li>
+                                            <li>Prueba de ingresos y patrimonio neto.</li>
+                                            <li>Representantes: Documento de identificación con fotografía, comprobante de domicilio y Poder Notarial firmado ante notario público.</li>
+                                            <li>Opcional: Últimas declaraciones de impuestos sobre la renta y de impuesto sobre el patrimonio.</li>
                                         </ul>
                                     </p>
                                 </div>
-                                <div class="text-right xs:pt-0-5 lg:pt-8 px-9 pb-4 underline underline-offset-4">
+                                <div class="text-right xs:pt-0-5 lg:pt-4 px-9 pb-4 underline underline-offset-4">
                                     <a href="" class="font-body font-bold text-a-color xxs:text-xxs xs:text-xxs sm:text-xxs md:text-xs lg:text-base">Open Account</a>
                                 </div>
                             </div>
@@ -175,18 +176,17 @@
                         </div>
                         <div class="back-card">
                             <div class="gradient-cucciara rounded-1 shadow xxs:h-48 xs:h-44 xxs:w-56 xs:w-48 sm:h-48 sm:w-48 md:w-48 lg:h-64 lg:w-72">
-                                <div class="text-left text-white xs:px-5 sm:px-5 xxs:pt-2 xs:pt-2 sm:pt-6 md:pt-6 md:px-5 lg:px-9 lg:pt-4">
+                                <div class="text-left text-white xs:px-5 sm:px-5 xxs:pt-2 xs:pt-2 sm:pt-6 md:pt-6 md:px-5 lg:px-9 lg:pt-2 xxs:ml-8 sm:ml-0">
                                     <p class="font-body xxs:text-xxs xs:text-xs sm:text-xs lg:text-xs">
-                                        <ul class="list-disc font-body xxs:text-xxs xs:text-xxs sm:text-xxs lg:text-xxs">
-                                            <li>Articles of Association together with Certificate of Good Standing.</li>
-                                            <li>Shareholders´ Register updated as of the date of the account opening.</li>
-                                            <li>Board Meeting minutes approving the most recent financial statements.</li>
-                                            <li>Board and/or Shareholder meeting minutes approving the current senior management positions in the areas of management and finance.</li>
-                                            <li>Photo ID of firm´s authorized signatories.</li>
-                                            <li>In the case of a Power of Attorney proof that said Power remains in place.</li>
-                                            <li>Financial Statements certified by an external auditor and legalized by the relevant body.</li>
-                                            <li>Copy of most recent tax returns.</li>
-                                            <li>Documents referred to above should be returned apostilled.</li>
+                                        <ul class="list-disc font-body xxs:text-xxs xs:text-xxs sm:text-xxs lg:text-xs">
+                                            <li>Memorando y Estatutos Sociales.</li>
+                                            <li>Certificado de Buena Conducta.</li>
+                                            <li>Registro de Accionistas (actualizado).</li>
+                                            <li>Registro de Directores (actualizado) o equivalente.</li>
+                                            <li>Prueba de domicilio de la empresa.</li>
+                                            <li>Identificación con fotografía y comprobante de domicilio de directores, representantes legales y beneficiarios efectivos.</li>
+                                            <li>Estados Financieros.</li>
+                                            <li>Últimas declaraciones de impuesto a las ganancias.</li>
                                         </ul>
                                     </p>
                                 </div>

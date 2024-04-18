@@ -1759,6 +1759,9 @@ ul, ol {
     .xxs\:gap-8{
         gap:2rem
     }
+    .xxs\:gap-12{
+        gap:3rem
+    }
     .xxs\:left-4{
         left:1rem
     }
@@ -1887,6 +1890,9 @@ ul, ol {
     }
     .xxs\:h-c-32{
         height:32rem
+    }
+    .xxs\:w-16{
+        width:4rem
     }
     .xxs\:w-20 {
         width: 5rem;
@@ -3183,7 +3189,6 @@ ul, ol {
 }
 .animacionltr.visible, .animacionrtl.visible, .animacionfade.visible {
     opacity: 1;
-    margin-left: 0;
 }
 /*nueva animacion*/
 
