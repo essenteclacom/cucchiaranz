@@ -98,7 +98,7 @@
                 </div>
                 <div class="pointer-events-none fixed inset-0 z-70 min-h-screen bg-black bg-opacity-70 opacity-0 transition-opacity lg:hidden" :class="{ 'opacity-100 pointer-events-auto': mobileMenu }">
                     <div class="absolute right-0 min-h-screen w-1/2 bg-quarter py-4 px-8 shadow md:w-1/2">
-                        <button class="absolute top-0 right-0 mt-4 mr-4" @click="mobileMenu = false">
+                        <button class="absolute top-0 right-0 mt-0 mr-0" @click="mobileMenu = false">
                             <img src="{{ asset('/img/icon-close.svg') }}"class="h-10 w-auto" alt="" />
                         </button>
                         <ul class="mt-8 flex flex-col">

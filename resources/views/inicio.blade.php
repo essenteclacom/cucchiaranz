@@ -19,7 +19,7 @@
                     {{-- <div class="absolute md:top-16 lg:-top-4 xl:-top-16 right-0 z--1">
                         <img src="img/Animacion Cucchiara_Mesa de trabajo 1.png" class="xxs:hidden xs:hidden sm:hidden md:block md:w-[48rem] lg:w-[56rem] xl:w-[65rem]">
                     </div> --}}
-                    <div class="xxs:h-32 xs:h-20 sm:h-32 md:h-48 lg:h-80 xl:h-40"></div>
+                    <div class="xxs:h-12 xs:h-12 sm:h-32 md:h-48 lg:h-80 xl:h-40"></div>
                 </div>
                 <div class="xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left animacionfade">
                     <span class="text-white font-body font-bold xxs:text-2xl sm:text-3xl lg:text-3xl xl:text-4xl">

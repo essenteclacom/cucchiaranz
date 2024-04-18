@@ -20,7 +20,7 @@
                         <div class="text-xl font-bold text-right max-w-3xl">
                             Brokerage
                         </div>
-                        <div class="xxs:text-xs xs:text-base sm:text-base text-right max-w-3xl pt-5 pl-32">
+                        <div class="xxs:text-xs xs:text-base sm:text-base text-right max-w-3xl pt-5">
                             Operating globally across major markets, we engage in both bilateral over-the-counter (OTC) negotiations and trading on listed exchanges. Our suite of financial instruments includes sovereign and corporate bonds from developed and emerging markets, shares of companies worldwide, ETFs, self-managed and third-party investment funds, derivatives (options and futures), commodities, currencies, cryptocurrencies, and tailored structured notes, among others.
                         </div>
                     </div>
@@ -37,7 +37,7 @@
                         <div class="text-xl font-bold text-left max-w-3xl">
                             Financial Advisory
                         </div>
-                        <div class="xxs:text-xs xs:text-base sm:text-base text-left max-w-3xl pt-5 pr-32">
+                        <div class="xxs:text-xs xs:text-base sm:text-base text-left max-w-3xl pt-5">
                             Our team of professionals provides investment solutions tailored to each client's profile and financial needs. We offer a long-term vision and seek to achieve the best risk/return ratio according to each market context.
                         </div>
                     </div>

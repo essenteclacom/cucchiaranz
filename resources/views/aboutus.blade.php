@@ -5,7 +5,7 @@
 @section('content')
     {{-- slide --}}
     <div>
-        <div class="bg-primary xxs:pb-24">
+        <div class="bg-primary xxs:pb-24 sm:pb-0">
             <div class="container relative z-30  md:hidden sm:visible">
                 <div class="flex flex-col items-center justify-center">
                     <div class="xxs:pt-6 xs:pt-6 sm:pt-20 md:pt-20 lg:pt-20 xl:pt-20 xs:pb-32 xxs:pb-32">
@@ -89,7 +89,7 @@
                 </div>
                 <div class="flex items-center justify-center">
                     <div>
-                        <img src="{{ asset('/img/about_logo_02.png') }}"class="w-36 h-auto" alt="icon puzzle"/>
+                        <img src="{{ asset('/img/about_logo_02.png') }}"class="xxs:w-20 sm:w-36 h-auto" alt="icon puzzle"/>
                     </div>
                 </div>
                 <div class="flex items-center justify-center">
