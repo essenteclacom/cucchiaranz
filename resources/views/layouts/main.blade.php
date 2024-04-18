@@ -103,7 +103,7 @@
                         </button>
                         <ul class="mt-8 flex flex-col">
                             <li class="py-4">
-                                <a href="/aboutus"><span class="cursor-pointer font-body font-semibold text-white">About Us</span></a>
+                                <a href="/aboutus"><span class="cursor-pointer font-body font-semibold text-white">About us</span></a>
                             </li>
                             <li class="py-4">
                                 <a href="/services"><span class="cursor-pointer font-body font-semibold text-white">Services</span></a>
